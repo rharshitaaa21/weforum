@@ -9,15 +9,18 @@
 
     <!----google fonts ---->
 
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Playfair+Display:ital@1&display=swap"  rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Playfair+Display:ital@1&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="universal-container">
     <!-- topbar -->
     <div class="top-header">
         <div class="topbar">
@@ -29,7 +32,7 @@
                 <a href="#"> <i class="fa fa-google-plus" aria-hidden="true"></i></a>
                 <a href="#"> <i class="fa fa-behance" aria-hidden="true"></i></a>
                 <a href="#"> <i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                <a href="#  "> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
             </div>
             <div class="right-profile-icons">
 
@@ -45,8 +48,6 @@
                         expand_more
                     </span>
                 </a>
-
-
             </div>
 
         </div>
@@ -55,24 +56,28 @@
         <div class="top-navigation">
             <div class=" navlist">
 
-                <div class="pasco">PASCO</div>
+                <a href="#" class="pasco">PASCO</a>
 
                 <div class="navbar">
                     <div class="left-icon-container">
                         <ul>
 
-                            <li class="home"><a href="#">HOME <i class="material-icons list-icons">expand_more</i></a>
+                            <li class="home"><a href="#">HOME <span
+                                        class="material-icons list-icons">expand_more</span></a>
                             </li>
 
 
-                            <li><a href="#">PORTFOLIO <i class="material-icons list-icons">expand_more</i></a></li>
+                            <li><a href="#">PORTFOLIO <span class="material-icons list-icons">expand_more</span></a>
+                            </li>
 
-                            <li><a href="#">BLOG <i class="material-icons list-icons">expand_more</i></a></li>
+                            <li><a href="#">BLOG <span class="material-icons list-icons">expand_more</span></a></li>
 
-                            <li><a href="#">PAGES <i class="material-icons list-icons">expand_more</i></a></li>
-                            <li><a href="#">SHOP <i class="material-icons list-icons">expand_more</i></a></li>
-                            <li><a href="#">COMPONENTS <i class="material-icons list-icons">expand_more</i></a></li>
-                            <li><a href="#">FEATURES <i class="material-icons list-icons">expand_more</i></a></li>
+                            <li><a href="#"><span class="nav-items">PAGES</span> <span
+                                        class="material-icons list-icons">expand_more</span></a></li>
+                            <li><a href="#">SHOP <span class="material-icons list-icons">expand_more</span></a></li>
+                            <li><a href="#">COMPONENTS <span class="material-icons list-icons">expand_more</span></a>
+                            </li>
+                            <li><a href="#">FEATURES <span class="material-icons list-icons">expand_more</span></a></li>
                         </ul>
                     </div>
 
@@ -104,43 +109,47 @@
             </div>
         </div>
 
-        <div class=" image-content">
+        
 
             <div class="centeral-container">
 
-                <div class="inspiration-container"> INSPIRATION</div>
-                <div class="heading-container">
-                    <div class="millennial-container"> 5 WAYS MILLLENNIALS CAN START</div>
-                    <div class="future-container">BUILDING THEIR FUTURE TODAY</div>
-                </div>
-                <button class="read-button" href="#" onclick="">READ MORE</button>
+                <h2 class="inspiration-container"> INSPIRATION</h2>
+                <span class="heading-container">
+                    <h1 class="millennial-container"> 5 WAYS MILLLENNIALS CAN START</h1>
+              
+                <h1 class="future-container">BUILDING THEIR FUTURE TODAY   </h1> </span>
             </div>
-            <div class=" authordetails-container">
-                <a href="#" class="bg-author-image"> <img src='../images/authordetails.png'> </a>
-                <a class="henry-container">Henry Little</a>
-                <a  class="card1-date-container">Apri 28, 2016 10:15</a>
-                
-                    <div class="comments-container ">
-                        <a  href="#" class="comment-icon">
-
-                          <span class="material-icons comment-image">
-                                    forum
-                          </span> Comments (28)
-                            
-                           
-                        </a>
-                        <a href="#" class="like-icon">
-                            
-                                <span class="material-icons-outlined like-image">
-                                    favorite_border
-                                </span>Likes (07)
-                            
-                            
-                        </a>
-                    </div>
-                </div>
-            
+       
+       <div class="read-btn"><button class="read-button">READ MORE</button></div>  
+        <div class=" authordetails-container">
+            <a href="#" class="bg-author-image"> <img src='../images/authordetails.png'> </a>
+            <a href="#" class="henry-container">Henry Little</a>
+            <a href="#" class="card1-date-container">Apri 28, 2016 10:15</a>
+    
+            <div class="comments-container ">
+                <a href="#" class="comment-icon">
+    
+                    <span class="material-icons comment-image">
+                        forum
+                    </span> Comments (28)
+    
+    
+                </a>
+                <a href="#" class="like-icon">
+    
+                    <span class="material-icons-outlined like-image">
+                        favorite_border
+                    </span>Likes (07)
+    
+    
+                </a>
+            </div>
         </div>
+    </div>
+   
+
+
+    </div>
 
 </body>
 
