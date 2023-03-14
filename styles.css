@@ -146,20 +146,14 @@ body {
 
 }
 
-.main-header {
-    background-image: url(../images/headermain.png);
+.main-header {background-image: url(../images/headermain.png);
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 62px;
-    height: 800px;
-}
+    padding-bottom: 62px;}
 
-.list-icons {
-    vertical-align: top;
+.list-icons {vertical-align: top;
     width: 16px;
-    margin-top: -3px;
-
-}
+    margin-top: -3px;}
 
 .home {
     padding-left: 13px;
@@ -298,8 +292,7 @@ body {
 
 .authordetails-container {margin-top: 77px;
     display: grid;
-    justify-content: center;
-    align-items: center;}
+    justify-content: center;}
 
 .henry-container {margin-bottom: 7px;
     margin-top: 15px;
@@ -338,13 +331,12 @@ body {
 
 .comments-container {margin-top: 33px;
     color: #bebebe;
-    gap: 25px;
+    gap: 20px;
     font-weight: 800;
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    display: flex;
-    justify-content: space-around;}
+    display: flex;}
 
 .comment {font-size: 17px;}
 
@@ -363,7 +355,8 @@ body {
     font-size: 12px;
     gap: 5px;}
 
-.comment-icon {display: flex;
+.comment-icon {padding-right: 2px;
+    display: flex;
     margin-top: 2px;
     font-size: 12px;
     margin-right: 7px;
@@ -388,9 +381,10 @@ body {
     color: #bebebf;}
 
 .comment-image {font-size: 15px;
-    margin-left: -2px;}
+    margin-right: 2px;
+  }
 
 .like-image {font-size: 16px;}
-.bg-author-image{
+.bg-author-image a{
     outline: none;
 }
