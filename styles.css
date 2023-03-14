@@ -4,12 +4,12 @@ font {    font-family: 'Montserrat', sans-serif;    font-family: 'Open Sans', sa
 
 body {    margin: 0;}
 
-.top-header {    justify-content: center;    background-color: #191919;    display: flex;}
+.top-header {    justify-content: center;background-color: #191919; display: flex;}
 
-.topbar {    align-items: center;    width: 1170px;  justify-content: space-between;    display: flex;
+.topbar {    align-items: center; width: 1170px;justify-content: space-between;display: flex;
     height: 40px;}
 
-.left-social-icons {    font-size: 17px;    color: #6c6c6c;    display: flex;    gap: 14.5px;    margin-left: 2px;    margin-top: 3px;
+.left-social-icons {    font-size: 17px;color: #6c6c6c;display: flex; gap: 14.5px; margin-left: 2px;margin-top: 3px;
 }
 
 .left-social-icons a {    color: #707070;    outline: none;    text-decoration: none;}
@@ -47,7 +47,8 @@ body {    margin: 0;}
     display: inline-flex;
 }
 
-.main-header {background-image: url(../images/headermain.png); background-repeat: no-repeat; background-position: center;    padding-bottom: 62px; -webkit-background-size: cover;}
+.main-header {background-image: url(../images/headermain.png); background-repeat: no-repeat; background-position: center;  
+      padding-bottom: 66px; -webkit-background-size: cover;}
 
 .list-icons { margin-top: 8px;    line-height: 1px;    vertical-align: top;    width: 16px;    }
 
@@ -226,3 +227,12 @@ a.card1-date-container{  color: #908f90;}
 .comment-image {font-size: 15px;    margin-right: 2px;  }
 
 .like-image {font-size: 16px;}
+
+.middle-division{ background-color: #ffffff; height: 60px; align-items: center; justify-content: space-around; display: flex; margin-left: 5px; } 
+.inner-container{ width: 1170px; display: flex }
+.sort-blog{ font-size: 11px; font-family: 'Montserrat', sans-serif;  font-weight: 800; word-spacing: 2px; margin-top: 9px;}
+.colon{ font-size: 16px; font-weight: 900; margin-right: 16px; margin: 6px 20px 0px 1px }
+.all-btn{  font-size: 12px; color: #4859b8; border: 1px solid #4859b8; width: 80px; font-weight: 600; height: 30px; border-radius: 28px; 
+padding: 3px 4px 0px 0px ; margin: 0px 17px 0px 0px; cursor: pointer; }
+.middle-btn{  color: #373737;border: none; height: 29px;padding: 11px 25px 14px 26px; font-size: 12px; border-radius: 25px;
+    font-weight: 600; cursor: pointer; margin: 0px 17px 0px 0px;}
