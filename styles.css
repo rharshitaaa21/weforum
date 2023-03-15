@@ -205,7 +205,8 @@ a.caption { color: #ffffff;}
 .comments { display: flex; margin-right: 20px; align-items: center; }
 .likes { align-items: center; display: flex; }
 .comment-image-card { font-size: 15px; margin-right: 8px; margin-top: 3px;}
-.comment-image-card a{ color: #ffffff;}
+a.comment-image-card{ color: #ffffff;}
+a.like-image-card{color:#ffffff}
 a.like-image-card{ color: #ffffff; }
 .like-image-card { font-size: 17px; margin-right: 5px ; margin-top: 3px; }
 .image1-caption-container { background-color: #ffffff; width: 820px; padding-bottom: 2px; padding-top: 13px; }
