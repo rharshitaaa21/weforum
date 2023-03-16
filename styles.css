@@ -222,7 +222,6 @@ a.like-image-card{ color: #ffffff; }
 .henry-image1-container{ margin-top: 25px; margin-left: 10px;font-size: 13px;letter-spacing: 1px; font-weight: 600; color: #4e4e4e;
     font-family: 'Montserrat', sans-serif;}
 .henry-image1-container a{ color: #4e4e4e;}
-
 .date-container {font-family: 'Montserrat', sans-serif; font-weight: 600;font-size: 12px;margin-left: 7px;
  color: #908f90;display: flex;letter-spacing: 1px;justify-content: center;}
  .date-container a{color: #908f90;}
@@ -230,9 +229,7 @@ a.like-image-card{ color: #ffffff; }
 .author-name .henry-container { color: #191919; }
 .card1 { display: inline; }
 .card2 { margin-top: 20px; display: flex; background-color: #ffffff; border: 1px solid #e0e0e0; }
-.card2-boldheading-container { font-family: 'Montserrat', sans-serif; color: black; font-size: 14px; letter-spacing: 1px; 
-      font-weight: 800;    margin: 0; padding-top: 7px; margin: 0; padding-top: 10px; padding-left: 20px; 
-   }
+.card2-boldheading-container { font-family: 'Montserrat', sans-serif; color: black; font-size: 14px; letter-spacing: 1px;font-weight: 800;    margin: 0; padding-top: 7px; margin: 0; padding-top: 10px; padding-left: 20px; }
 .card2-boldheading-container a{ color: black;}
 .image2 { height: 165px; }
 .card2-description-container {  padding-left: 15px; padding-top: 7px; margin: 0;  font-family: 'Montserrat', sans-serif;  font-size: 15px;letter-spacing: 1px;
@@ -254,14 +251,12 @@ a.dot-container{color:#191919}
 .vcard2-image{background-image: url('../images/card3-image.png');}
 .vcard3-image{background-image: url('../images/card4-image.png');}
 .play-cards-container { font-size: 52px; margin-top: 58px; justify-content: center;  display: flex; color: #ffffff;}
-.card2-image-activity { display: inline; color: #ffffff; font-family: 'Monteserrat', sans-serif;   margin-top:3px; 
-    letter-spacing: 1px;} 
+.card2-image-activity { display: inline; color: #ffffff; font-family: 'Monteserrat', sans-serif;   margin-top:3px; letter-spacing: 1px;} 
 .card2-author-image{ background-repeat: no-repeat; width: 50px; height: 50px;}
 .vcard1-author{ background-image: url('../images/card2-author.png'); }
 .vcard2-author{background-image: url('../images/author-1.png'); }
 .vcard3-author{background-image: url('../images/author-2.png'); }
-.card2-caption { top:76%; position: absolute;font-size: 11px; color: #ffffff; font-family: 'Monteserrat', sans-serif;
-  left:9%}
+.card2-caption { top:76%; position: absolute;font-size: 11px; color: #ffffff; font-family: 'Monteserrat', sans-serif;left:9%}
 a.card2-caption{ color: #ffffff;}
 .card2-image{display: grid; align-content: center; position: relative;}
 .card2-headings{ display: grid;}
@@ -271,7 +266,6 @@ a.card2-caption{ color: #ffffff;}
 .comments-card{ display: flex; margin-right: 20px; align-items: center; }
 .likes-card{ align-items: center; display: flex; }
 .card2-activity {  top:73%; position: absolute; display: flex; font-size: 12px; font-family: 'Montserrat', sans-serif;left: 60%; }
-
 .comment-image-card2{ font-size: 15px;margin: 2px 8px 0px 0px ;}
 a.comment-image-card2 { color: #ffffff;}
 .like-image-card2{font-size: 16px; margin :1px 2px 0px 0px; }
@@ -295,7 +289,6 @@ a.like-image-card2{color: #ffffff;}
 .hcard3-author{ background-image: url('../images/author-2.png'); height: 50px; width: 50px; background-repeat: no-repeat;}
 .hcard-playbtn{display: flex; font-size: 48px; justify-content: center; color: #FFFFFF; position: absolute; top: 35%; left: 40%;}
 .hcard-caption{top: 82%; position: absolute;left: 8%; font-size: 12px; font-size: 500; color: #ffffff;}
-
 .hcard-caption a{color: #ffffff;}
 .hcard-activity a{color: #ffffff;}
 .h1-bold a{color: #191919;}
