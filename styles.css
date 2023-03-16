@@ -244,6 +244,7 @@ a.like-image-card{ color: #ffffff; }
     letter-spacing: 1px; justify-content: center; margin-right: 4px;}
 .card2-author-container {padding-top: 5px;  margin-left: 9px; font-family: 'Montserrat', sans-serif; word-spacing: 1px; color: #373737; font-weight: 500;font-size: 14px;}
 .dot-container { margin-top: 15px;display: flex; float: right; margin-left: 356px; font-size: 20px; }
+.dot-bigcontainer{  margin-top: 33px; margin-left: 576px; font-size: 20px; color: #191919;}
 .dot-container-vcard3{ margin-top: 15px;display: flex; float: right; margin-left: 345px; font-size: 20px ; color: #191919; }
 a.dot-container{color:#191919}
 .card-dotcontainer{ margin-top: 21px; font-size: 20px; margin-left: 51px; }
@@ -293,7 +294,8 @@ a.like-image-card2{color: #ffffff;}
 .hcard2-author{ background-image: url('../images/author-1.png'); height: 50px; width: 50px; background-repeat: no-repeat;}
 .hcard3-author{ background-image: url('../images/author-2.png'); height: 50px; width: 50px; background-repeat: no-repeat;}
 .hcard-playbtn{display: flex; font-size: 48px; justify-content: center; color: #FFFFFF; position: absolute; top: 35%; left: 40%;}
-.hcard-caption{top: 82%; position: absolute;left: 8%; font-size: 12px; font-size: 500;}
+.hcard-caption{top: 82%; position: absolute;left: 8%; font-size: 12px; font-size: 500; color: #ffffff;}
+
 .hcard-caption a{color: #ffffff;}
 .hcard-activity a{color: #ffffff;}
 .h1-bold a{color: #191919;}
