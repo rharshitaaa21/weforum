@@ -282,3 +282,7 @@ font-family: 'Montserrat', sans-serif;}
 .comment-image-dcard{ font-size: 15px; margin-right: 5px; color: #ffffff;}
 .like-image-dcard{ font-size: 15px; color: #ffffff; margin-right: 3px; }
 a.d1-bold{color: #191919;}
+.arrowleft-icon-container{color:#3f51b5; background-color: #ffffff; padding: 10px 10px 10px 10px;position:absolute; top:40px; left:10px; border: 1px solid #e0e0e0}
+.arrowright-icon-container{color:#3f51b5; background-color: #ffffff; padding: 10px 10px 10px 10px;position:absolute; top:40px; right:10px;  border: 1px solid #e0e0e0}
+a.arrowleft-icon-container{color: #3f51b5;}
+a.arrowright-icon-container{color: #3f51b5;}
