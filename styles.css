@@ -24,7 +24,7 @@ body {    margin: 0;}
 .navigationbar {align-items: center; display: flex; justify-content: center;}
 .navlist {width: 1170px;color: #ffffff;display: flex;}
 .left-icon-container li { margin: 13px 14px; display: inline-flex;}
-.main-header {background-image: url(../images/headermain.png); background-repeat: no-repeat; background-position: center;  
+.main-header {background-image: url(./images/headermain.png); background-repeat: no-repeat; background-position: center;  
       padding-bottom: 66px; -webkit-background-size: cover;}
 
 .list-icons { margin-top: 8px;    line-height: 1px;    vertical-align: top;    width: 16px;    }
@@ -261,13 +261,6 @@ a.like-hcard {color: #ffffff;}
 .like-hcard{font-size: 15px;  margin-right: 2px; margin-left: 15px;}
 .hcard-activity{ bottom: 9%;position: absolute;display: flex;right: 11%; color: #ffffff; font-family: 'Montserrat',sans-serif ; font-size: 13px;}
 .hcard-author-details{ display: flex; margin-left: 20px; margin-bottom: 16px; margin-top: 17px; font-family: 'Montserrat', sans-serif;}
-.right-division-container{ background-color: white;margin-top: 27px;margin-left: 40px;} 
-.right-division {margin-top: 27px; font-family: 'Open-Sans', sans-serif; width: 300px; background-color: #ffffff; left: 44px;  }
-.searchbar {  background-color: #f5f5f5; width: 263px; padding: 3px; display: flex; margin-left: 30px; margin-bottom: 24px; margin-top: 25px;
-    justify-content: space-between;border-radius: 25px; border: 2px solid #ffffff;float: right; }
-.searchbar-container { color: #989898; margin-top: 8px; font-family: 'Open-Sans', sans-serif; float: left; left: 44px; margin-left: 23px;}
-.coloured-searchicon { color: #ffffff; background-color: #ff4081; float: right; font-size: 34px; border-radius: 25px; }
-
 .dcard1-image{width: 400px;height: 300px;background-image: url(../images/dcard1-image.png);background-repeat: no-repeat; position:relative; }
 .dcard2-image { width: 400px; height: 300px; background-image: url(../images/dcard2-image.png); background-repeat: no-repeat;  }
 .dcard-caption{  bottom: 5%;position: absolute;left: 5%; font-size: 12px; font-size: 500; color: #ffffff; font-family: 'Montserrat',sans-serif;}
@@ -294,3 +287,26 @@ a.arrowright-icon-container{color: #3f51b5;}
 .doublecard-heading2{ letter-spacing: 1px; font-size: 18px; font-family: 'Montserrat',sans-serif;
     font-weight: 600; color: #3f51b5; padding: 0; margin: 0; font-weight:700;}  
 .doublecard-heading2 a{color: #3f51b5;}
+.right-division-container{ background-color: white;margin-top: 30px;margin-left: 40px;} 
+.searchbar {  background-color: #f5f5f5; width: 263px; padding: 3px; display: flex;  margin-bottom: 24px; margin-top: 25px;
+    justify-content: space-between;border-radius: 25px; border: 2px solid #ffffff;margin-left: 24px; }
+.searchbar-container { color: #989898; margin-top: 8px; font-family: 'Open-Sans', sans-serif; float: left; left: 44px; margin-left: 23px;}
+.coloured-searchicon { padding: 4px;color: #ffffff;background-color: #ff4081;float: right;font-size: 25px;border-radius: 25px;}
+.right-division{ width: 306px; padding-top: 27px;}
+.categories{font-family: 'Montserrat',sans-serif; letter-spacing: 2px; font-size: 15px;color: #3f51b5;font-weight: 700; margin-left: 28px;border-bottom: 2px solid #becfff  ; padding-bottom: 5px;}
+.category-list{margin-left: 27px; font-family: "Open-Sans",sans-serif; font-size: 13px; }
+.category-divider{border-bottom: 1px solid #e0e0e0; padding-bottom: 15px; padding-top: 15px;}
+.category-frequency{font-family: 'Open-Sans',sans-serif; font-weight: 800; font-size: 13px; float: right;}
+.subscribe{ color: #3f51b5; margin-left: 29px; font-family: 'Open-Sans', sans-serif  ; font-weight: 600; letter-spacing: 1px; padding-top: 50px; border-bottom: 2px solid #becfff; padding-bottom:8px; font-size: 17px;}
+.form-container{ margin-left: 29px; font-weight: 400;font-family: "Open Sans",sans-serif;padding-top: 15px; padding-bottom: 25px;} 
+.form-box{ border: 1px solid #e0e0e0; padding: 10px 100px 10px 10px; margin:10px 0px 10px 0px; border-radius: 5px; }
+.form-name{  color: #000000; font-size: 16px; letter-spacing: 1px;}
+.subscribe-btn{ color: #ffffff; background-color: #3f51b5; border: none; padding: 15px 100px 15px 100px; font-family: 'Montserrat',sans-serif; font-weight: 600; margin-left: 29px; letter-spacing: 1px; border-radius: 5px;}
+.grid-icons{ display: flex; gap: 6px; margin-top: 15px; margin-left: 29px;}
+.icon-coloured{ border-radius: 50%; color: #ffffff; font-size: 17px; padding: 15px 15px 15px 15px; }
+.color-f{background-color: #3f51b5;}
+.color-tt{background-color: #55acee;}
+.color-v{background-color: #4c75a3;}
+.color-p{background-color: #ff2e56;}
+.color-t{background-color: #34465d;}
+.color-d{background-color: #ea4c89;}
