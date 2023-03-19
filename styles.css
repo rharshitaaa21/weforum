@@ -155,7 +155,11 @@ a.like-image-card{ color: #ffffff; }
 .card2-author-container a{ color: #373737; }
 .card2-date-container { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; margin-top: 4px;  color: #908f90; display: flex;
 letter-spacing: 1px; justify-content: center; margin-right: 5px;}
+.card3-date-container { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; margin-top: 4px;  color: #908f90; display: flex;
+    letter-spacing: 1px; justify-content: center; margin-right: 10px;}
 .card2-author-container {padding-top: 6px;  margin-left: 11px; font-family: 'Montserrat', sans-serif; word-spacing: 1px; color: #373737; font-weight: 600;font-size: 14px;}
+.dot-container {  bottom: 33%; right: 10%;position: absolute;  font-size: 20px;}
+.card3-author-container {padding-top: 5px;  margin-left: 10px; font-family: 'Montserrat', sans-serif; word-spacing: 1px; color: #373737; font-weight: 600;font-size: 14px;}
 .dot-container {  bottom: 33%; right: 10%;position: absolute;  font-size: 20px;}
 .dot-bigcontainer{  margin-top: 33px; margin-left: 576px; font-size: 20px; color: #191919;}
 .dot-container-vcard3{ margin-top: 15px;display: flex; float: right; margin-left: 345px; font-size: 20px ; color: #191919; }
