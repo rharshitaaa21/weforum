@@ -118,9 +118,9 @@ a.like-image{ color: #ffffff;}
 .image_play a{ color: #ffffff;} 
 .play-btn { font-size: 55px; margin-top: 179px; justify-content: center; display: flex; color: #ffffff; }
 .image-activity { display: inline; color: #ffffff; font-family: 'Monteserrat', sans-serif; font-size: 12px; }
-.caption{  font-family: 'Monteserrat', sans-serif; font-size: 12px; position: absolute;font-weight: 600;bottom:7%; left:5%}
+.caption{  font-family: 'Monteserrat', sans-serif; font-size: 12px; position: absolute;font-weight: 600;bottom:17px; left:17px}
 a.caption { color: #ffffff;}
-.activity { bottom:30px; position: absolute; display: flex;font-family: 'Montserrat', sans-serif; right: 30px;}
+.activity { bottom:15px; position: absolute; display: flex;font-family: 'Montserrat', sans-serif; right: 21px;}
 .comments { display: flex; margin-right: 20px; align-items: center; }
 .likes { align-items: center; display: flex; }
 .comment-image-card { font-size: 15px; margin-right: 8px; margin-top: 3px;}
