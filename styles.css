@@ -196,31 +196,45 @@ a.like-image-card2{color: #ffffff;}
 .hcard1{margin-top: 20px; background-color: #ffffff;     border: 1px solid #e0e0e0}
 .hcard1-image-container{ width: 258px; height: 159px; background-repeat: no-repeat; }
 .hcard1-image{background-image: url(../images/.hcard1-image.png);}
-.horizontal-card{ gap: 22px; display: flex; justify-content: space-between; }
+.horizontal-card{ display: flex; justify-content: space-between; }
 .hcard1{ margin-top : 20px;  background-color: #ffffff; }
 .hcard1-image{width: 258px; height: 159px;  background-image: url(../images/hcard1-image.png); background-repeat: no-repeat; position: relative;}
 .hcard2-image{ width: 258px; height: 159px; background-image: url(../images/hcard2-image.png);background-repeat: no-repeat; position: relative; }
 .hcard3-image{ width: 258px;height: 159px;background-image: url(../images/hcard3-image.png); background-repeat: no-repeat;  position: relative;}
 .hcard2-details { padding-top: 103px; }
 .hcard5-image{ background-image: url('../images/hcard3-image.png'); background-repeat: no-repeat; }
-.hcard-dotcontainer{ margin-top: 21px; font-size: 20px; margin-left: 46px; }
-.h1-bold { line-height: 22px; margin-top: 13px; margin-left: 19px; font-size: 14px; font-family: 'Montserrat',sans-serif; font-weight: 700;  }
+.hcard-dotcontainer{ margin-top: 25px; font-size: 20px; margin-left: 53px; }
+.hcard2-date-container{font-family: 'Montserrat', sans-serif;font-weight: 600;font-size: 11px;color: #908f90;display: flex;
+letter-spacing: 1px;justify-content: center; margin: 2px 17px 1px 0px;}
+.hcard3-date-container{font-family: 'Montserrat', sans-serif;font-weight: 600;font-size: 11px;margin-top: 2px;color: #908f90;display: flex;
+letter-spacing: 1px;justify-content: center;margin-left: 7px;}
+.hcard3-dotcontainer{ margin-top: 22px;font-size: 20px;margin-left:70px;}
+.hcard2-dotcontainer{
+    margin-top: 24px;
+    font-size: 20px;
+    margin-left: 43px;
+}
+a.hcard2-dotcontainer{color: #191919;}
+a.hcard3-dotcontainer{color: #191919;}
+.h1-bold { line-height: 22px; word-spacing: 2px; margin-top: 13px; margin-left: 19px; font-size: 14px; font-family: 'Montserrat',sans-serif; font-weight: 700;  }
 .h1-regular{ letter-spacing: 1px; margin-top: 11px; font-family: 'Open-Sans',sans-serif; font-size: 13px; word-spacing: 3px; line-height: 20px;
     margin-left: 19px; margin-bottom: 25px; }
 .hcard1-author{ background-image: url('../images/card2-author.png'); height: 50px; width: 50px; background-repeat: no-repeat;}
 .hcard2-author{ background-image: url('../images/author-1.png'); height: 50px; width: 50px; background-repeat: no-repeat;}
 .hcard3-author{ background-image: url('../images/author-2.png'); height: 50px; width: 50px; background-repeat: no-repeat;}
 .hcard-playbtn{display: flex; font-size: 48px; justify-content: center; color: #FFFFFF; position: absolute; top: 35%; left: 40%;}
-.hcard-caption{bottom: 9%; position: absolute;left: 8%; font-size: 12px; font-size: 500; color: #ffffff; font-family: 'Montserrat',sans-serif;}
+.hcard-caption{bottom:12px; position: absolute;left: 17px; font-size: 12px; font-size: 500; color: #ffffff; font-family: 'Montserrat',sans-serif;}
 .hcard-caption a{color: #ffffff;}
+.hcard-author-container{padding-top: 6px; margin-left: 9px;font-family: 'Montserrat', sans-serif;word-spacing: 1px;color: #373737;
+    font-weight: 600;font-size: 14px;}
 a.comments-hcard {color: #ffffff;}
 a.like-hcard {color: #ffffff;}
 .h1-bold a{color: #191919;}
 .hcard-dotcontainer{color: #191919;}
-.comments-hcard{font-size: 15px; margin-right: 3px; }
-.like-hcard{font-size: 15px;  margin-right: 2px; margin-left: 15px;}
-.hcard-activity{ bottom: 9%;position: absolute;display: flex;right: 11%; color: #ffffff; font-family: 'Montserrat',sans-serif ; font-size: 13px;}
-.hcard-author-details{ display: flex; margin-left: 20px; margin-bottom: 16px; margin-top: 17px; font-family: 'Montserrat', sans-serif;}
+.comments-hcard{font-size: 15px; margin: 0px 8px 2px 0px }
+.like-hcard{font-size: 15px;     margin: 0px 6px 2px 19px}
+.hcard-activity{ bottom: 10px;position: absolute;display: flex;right: 18px; color: #ffffff; font-family: 'Montserrat',sans-serif ; font-size: 13px;}
+.hcard-author-details{ display: flex; margin-left: 20px; margin-bottom: 20px; margin-top: 17px; font-family: 'Montserrat', sans-serif;}
 .dcard1-image{width: 400px;height: 300px;background-image: url(../images/dcard1-image.png);background-repeat: no-repeat; position:relative; }
 .dcard2-image { width: 400px; height: 300px; background-image: url(../images/dcard2-image.png); background-repeat: no-repeat;  }
 .dcard-caption{  bottom: 5%;position: absolute;left: 5%; font-size: 12px; font-size: 500; color: #ffffff; font-family: 'Montserrat',sans-serif;}
@@ -232,8 +246,8 @@ font-family: 'Montserrat', sans-serif;}
 .comment-image-dcard{ font-size: 15px; margin-right: 5px; color: #ffffff;}
 .like-image-dcard{ font-size: 15px; color: #ffffff; margin-right: 3px; }
 .dcard-activity{bottom: 5%;position: absolute;display: flex;right: 5%; color: #ffffff; font-family: 'Montserrat',sans-serif ; font-size: 13px;}
-.arrowleft-icon-container{color:#3f51b5; background-color: #ffffff; padding: 10px 10px 10px 10px;position:absolute; top:40px; left:10px; border: 1px solid #e0e0e0}
-.arrowright-icon-container{color:#3f51b5; background-color: #ffffff; padding: 10px 10px 10px 10px;position:absolute; top:40px; right:10px;  border: 1px solid #e0e0e0}
+.arrowleft-icon-container{color:#3f51b5; background-color: #ffffff; padding: 6px 5px 7px 5px;position:absolute; top:58px; left:10px; border: 1px solid #e0e0e0}
+.arrowright-icon-container{color:#3f51b5; background-color: #ffffff;  padding: 6px 5px 7px 5px;position:absolute; top:58px; right:10px;  border: 1px solid #e0e0e0}
 a.arrowleft-icon-container{color: #3f51b5;}
 a.arrowright-icon-container{color: #3f51b5;}
 .doublecard-description{padding: 12px 12px 12px 12px;}
