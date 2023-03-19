@@ -237,29 +237,33 @@ a.like-hcard {color: #ffffff;}
 .hcard-author-details{ display: flex; margin-left: 20px; margin-bottom: 20px; margin-top: 17px; font-family: 'Montserrat', sans-serif;}
 .dcard1-image{width: 400px;height: 300px;background-image: url(../images/dcard1-image.png);background-repeat: no-repeat; position:relative; }
 .dcard2-image { width: 400px; height: 300px; background-image: url(../images/dcard2-image.png); background-repeat: no-repeat;  }
-.dcard-caption{  bottom: 5%;position: absolute;left: 5%; font-size: 12px; font-size: 500; color: #ffffff; font-family: 'Montserrat',sans-serif;}
+.dcard-caption{  bottom: 18px;position: absolute;left: 18px; font-size: 12px; font-size: 500; color: #ffffff; font-family: 'Montserrat',sans-serif;}
 .dcard-caption a{color: #ffffff;}
 .dcard-dotcontainer{ margin-left: 179px; }
-.dcard-author-details{display: flex; margin-left: 20px; margin-bottom: 8px;margin-top: 22px;
+.dcard-author-details{display: flex; margin-left: 20px; margin-bottom: 8px;margin-top: 10px;
 font-family: 'Montserrat', sans-serif;}
 
 .comment-image-dcard{ font-size: 15px; margin-right: 5px; color: #ffffff;}
 .like-image-dcard{ font-size: 15px; color: #ffffff; margin-right: 3px; }
-.dcard-activity{bottom: 5%;position: absolute;display: flex;right: 5%; color: #ffffff; font-family: 'Montserrat',sans-serif ; font-size: 13px;}
+.dcard-activity{bottom: 18px;position: absolute;display: flex;right: 18px; color: #ffffff; font-family: 'Montserrat',sans-serif ; font-size: 13px;}
 .arrowleft-icon-container{color:#3f51b5; background-color: #ffffff; padding: 6px 5px 7px 5px;position:absolute; top:58px; left:10px; border: 1px solid #e0e0e0}
 .arrowright-icon-container{color:#3f51b5; background-color: #ffffff;  padding: 6px 5px 7px 5px;position:absolute; top:58px; right:10px;  border: 1px solid #e0e0e0}
 a.arrowleft-icon-container{color: #3f51b5;}
 a.arrowright-icon-container{color: #3f51b5;}
 .doublecard-description{padding: 12px 12px 12px 12px;}
 .doublecard-heading{  letter-spacing: 1px; font-size: 18px; font-family: 'Montserrat',sans-serif;
-    font-weight: 600; color: #191911; padding: 0; margin: 0;}
+    font-weight: 600; color: #191911; padding: 1px 0px 0px 8px; margin: 0;}
 .doublecard-heading a{color: #191919;}
-.doublecard-content{letter-spacing: 1px;font-family: 'Open-Sans',sans-serif; font-size: 15px; word-spacing: 3px;line-height: 20px;}
+.dcard-author-container{ padding-top: 6px; margin-left: 6px;font-family: 'Montserrat', sans-serif; word-spacing: 1px;color: #373737;
+    font-weight: 600;font-size: 14px;}
+.dcard-date-container{ font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px;   color: #908f90; display: flex;
+    letter-spacing: 1px; margin-left: 7px;}
+.doublecard-content{letter-spacing: 1px;font-family: 'Open-Sans',sans-serif; font-size: 15px; word-spacing: 3px;line-height: 22px; margin-left: 8px; margin-top: 0; padding-top: 10px;}
 .doublecard-author1{background-image: url('../images/card2-author.png'); background-repeat: no-repeat; height: 56px; width: 56px;}
 .dcard2-image{width: 400px;height: 300px;background-image: url('../images/dcard2-image.png');background-repeat: no-repeat; position:relative; }
 .doublecard-author2{background-image: url('../images/card3-author.png'); background-repeat: no-repeat; height: 56px; width: 56px;}
 .doublecard-heading2{ letter-spacing: 1px; font-size: 18px; font-family: 'Montserrat',sans-serif;
-    font-weight: 600; color: #3f51b5; padding: 0; margin: 0; font-weight:700;}  
+    font-weight: 600; color: #3f51b5;padding: 1px 0px 0px 8px;  margin: 0; font-weight:700;}  
 .doublecard-heading2 a{color: #3f51b5;}
 .right-division-container{ background-color: white;margin-top: 30px;margin-left: 40px;} 
 .inner-card-container{margin-left: 44px;}
