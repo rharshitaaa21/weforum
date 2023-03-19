@@ -18,7 +18,7 @@ body { margin: 0;}
 .navigationbar {align-items: center; display: flex; justify-content: center;}
 .navlist {width: 1170px;color: #ffffff;display: flex;}
 .left-icon-container li { margin: 13px 14px; display: inline-flex;}
-.main-header {background-image: url(./images/headermain.png); background-repeat: no-repeat; background-position: center;padding-bottom: 66px; -webkit-background-size: cover;}
+.main-header {background-image: url(./images/headermain.png); background-repeat: no-repeat; background-position: center;padding-bottom: 65px; -webkit-background-size: cover;}
 .list-icons { margin-top: 8px;    line-height: 1px;    vertical-align: top;    width: 16px;    }
 
 .home {padding-left: 13px;display: flex;border-bottom: 5px solid #ff4081;}
@@ -99,10 +99,10 @@ a.card1-date-container{  color: #908f90;}
 .like-image {font-size: 16px;}
 a.like-image{ color: #ffffff;}
 .middle-division{ background-color: #ffffff; height: 60px;     border-bottom: 2px solid #e6e6e6; align-items: center; justify-content: space-around; display: flex;} 
-.inner-container{ width: 1170px; display: flex ; padding-left: 5px;}
+.inner-container{ width: 1170px; display: flex ; padding-left: 6px;}
 .sort-blog{ font-size: 11px; font-family: 'Montserrat', sans-serif;  font-weight: 800; word-spacing: 2px; margin-top: 9px;}
-.colon{ font-size: 16px; font-weight: 900; margin-right: 16px; margin: 6px 18px 0px 1px; }
-.all-btn{  font-size: 12px;  padding: 9px 30px 7px 27px; font-weight: 600; border-radius: 28px; 
+.colon{ font-size: 16px; font-weight: 900; margin: 6px 20px 0px 1px; }
+.all-btn{  font-size: 12px;  padding: 9px 30px 6px 25px; font-weight: 600; border-radius: 28px; 
  margin: 0px 15px 0px 0px; cursor: pointer; }
 .active-btn{ cursor: pointer;  color: #4859b8; border: 1px solid #4859b8 ;}
 .middle-btn{  color: #373737;border: none; padding: 9px 30px 7px 27px; font-size: 12px; border-radius: 25px;
@@ -111,7 +111,7 @@ a.like-image{ color: #ffffff;}
 .main-body-container { background-color: #f5f5f5; display: grid; grid-template-columns: auto auto; }
 .left-division-container { display: flex; flex-direction: column; align-items: flex-end;}
 .centeral-card { display: flex; float: left; margin-top: 30px; background-color: #ffffff; width: 1170px; height: 2608px; }
-.left-division { margin-right: 3px; width: 820px; margin-top: 30px; }
+.left-division { margin-left: 3px; width: 820px; margin-top: 30px; }
 .image1-container{ display: grid; align-content: center;}
 .image1{ background-image: url(../images/body-1.png); height: 421px; position: relative;}
 .image_play { text-align: center;  top: 43%; color: #ffffff; font-size: 60px; position: absolute;left: 46%;}
@@ -144,7 +144,7 @@ a.like-image-card{ color: #ffffff; }
 .divider { border: 1px solid #e0e0e0; }
 .author-name .henry-container { color: #191919; }
 .card1 {box-shadow: 2px 2px #e0e0e0;}
-.card2 { margin-top: 20px; display: flex; background-color: #ffffff; box-shadow: 2px 1px #e0e0e0; }
+.card2 { margin-top: 18px; display: flex; background-color: #ffffff; box-shadow: 2px 1px #e0e0e0; }
 .card2-boldheading-container { font-family: 'Montserrat', sans-serif;color: black;font-size: 16px;font-weight: 900;margin: 0; padding: 10px 23px 10px 19px; }
 .card2-boldheading-container a{ color: black;}
 .image2 { height: 165px; }
