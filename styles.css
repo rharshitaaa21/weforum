@@ -316,8 +316,9 @@ a.arrowright-icon-container{color: #3f51b5;}
 .or-border-right{border-bottom: 1px solid #000000;width: 120px;  margin-left: 10px;margin-bottom: 8px}
 .tab-post{ color: #3f51b5;  font-family: 'Open-Sans', sans-serif  ; font-weight: 800; margin-top: 43px; border-bottom: 2px solid #becfff;
 padding-bottom:6px; font-size: 17px; margin-right: 3px;}
+.tags{ color: #3f51b5;  font-family: 'Open-Sans', sans-serif  ; font-weight: 800; margin-left: 1px; padding-top: 23px;
+border-bottom: 2px solid #becfff; padding-bottom:5px; font-size: 17px; margin-left: 1px;}
 .tags-margin{ margin-bottom: 23px;  }
-/* .tags-1{margin: 15px 15px 0px 0px ;}  */
 .tags-2{ margin-top: 22px; margin-bottom: 21px;}
 .tags-btn-line1{ border-radius: 3px; letter-spacing: 2px; background-color: #eeeeee; color: #000000; font-size: 12px;
 font-family: "Open-Sans",sans-serif;   padding: 8px 16px 6px 16px ; font-weight: 500; margin: 15px 6px 0px 0px ;}
