@@ -300,15 +300,14 @@ a.arrowright-icon-container{color: #3f51b5;}
     border-radius: 5px;}
 .recent{ background-color: #3f51b5; color: #ffffff; padding: 12px 24px 12px 25px ; font-weight: 600;}
 .popular{background-color: #ffffff; color: #3f51b5; padding: 14px 14px 10px 20px;  font-weight: 600;}
-.grid-column{display: flex; margin-top: 17px;  padding-bottom: 17px;}
+.grid-column{display: flex; margin-top: 11px;  padding-bottom: 14px;}
 .grid-activity{ display: flex; font-family: 'Montserrat',sans-serif; color: #b9c5cd; font-size: 13px; margin-left: 10px;}
 .grid-img{ background-repeat: no-repeat; height: 80px; width: 100px; margin-top: 4px;}
 .grid-img1{ background-image: url(./images/rightlist-1.png); }
 .grid-img2{ background-image: url(./images/rightlist-2.png); }
 .grid-img3{ background-image: url(./images/rightlist-3.png); }
 .grid-img4{ background-image: url(./images/rightlist-4.png); }
-
-
+.grid-container{ margin-top: 16px;}
 .grid-date{ float: left; font-size: 12px;font-family: 'Open-Sans', sans-serif; color: #6b6b6b;  margin-left:5px ; margin-top: 1px; }
 .grid-comments{ color: #3f51b5; font-size: 14px;  margin-bottom: 4px; margin-left: 55px; margin-right: 5px;}
 .grid-content{margin-top: 1px;font-weight: 600;font-size: 15px;font-family: 'Open-Sans', sans-serif;margin-left: 16px; line-height: 19px;}
