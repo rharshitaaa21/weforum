@@ -274,10 +274,10 @@ a.arrowright-icon-container{color: #3f51b5;}
 .right-division{ width: 306px; padding-top: 27px;}
 .categories{font-family: 'Montserrat',sans-serif;  font-size: 17px;color: #3f51b5;font-weight: 800; border-bottom: 2px solid #becfff  ; padding-bottom: 5px; letter-spacing: 1px; margin-bottom: 16px;}
 .category-list{ font-family: "Open-Sans",sans-serif; font-size: 13px; letter-spacing: 1px; font-weight: 600; }
-.category-divider{ margin-top: 13px;}
-.category-break{ border: 1px solid #e0e0e0; margin-top: 10px;}
+.category-divider{ margin-top: 12px;}
+.category-break{ border: 1px solid #e0e0e0; margin-top: 12px;}
 .category-frequency{font-family: 'Open-Sans',sans-serif; font-weight: 800; font-size: 13px; float: right;}
-.subscribe{ color: #3f51b5;  font-family: 'Open-Sans', sans-serif  ; font-weight: 600; letter-spacing: 1px; padding-top: 50px; border-bottom: 2px solid #becfff; padding-bottom:8px; font-size: 17px;}
+.subscribe{ color: #3f51b5;  font-family: 'Open-Sans', sans-serif  ; font-weight: 800; letter-spacing: 1px; padding-top: 41px; border-bottom: 2px solid #becfff; padding-bottom:7x; font-size: 17px;}
 .form-container{  font-weight: 400;font-family: "Open Sans",sans-serif;padding-top: 15px; padding-bottom: 25px;} 
 .form-box{ border: 1px solid #e0e0e0; padding: 10px 100px 10px 10px; margin:10px 0px 10px 0px; border-radius: 5px; }
 .form-name{  color: #000000; font-size: 16px; letter-spacing: 1px;}
