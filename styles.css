@@ -266,15 +266,16 @@ a.arrowright-icon-container{color: #3f51b5;}
     font-weight: 600; color: #3f51b5;padding: 1px 0px 0px 8px;  margin: 0; font-weight:700;}  
 .doublecard-heading2 a{color: #3f51b5;}
 .right-division-container{ background-color: white;margin-top: 30px;margin-left: 40px;} 
-.inner-card-container{margin-left: 44px;}
-.searchbar {  background-color: #f5f5f5; width: 263px; padding: 3px; display: flex;  margin-bottom: 24px; margin-top: 25px;
-    justify-content: space-between;border-radius: 25px; border: 2px solid #ffffff; }
-.searchbar-container { color: #989898; margin-top: 8px; font-family: 'Open-Sans', sans-serif; float: left; left: 44px; margin-left: 23px;}
-.coloured-searchicon { padding: 4px;color: #ffffff;background-color: #ff4081;float: right;font-size: 25px;border-radius: 25px;}
+.inner-card-container{margin-left: 40px; width: 272px;}
+.searchbar {  background-color: #f5f5f5; width: 263px; padding: 3px; display: flex;  margin-bottom: 24px;
+    border-radius: 25px; border: 2px solid #ffffff; }
+.searchbar-container { color: #989898;letter-spacing: 1px;  margin-top: 6px; font-family: 'Open-Sans', sans-serif; float: left; margin-left: 12px;}
+.coloured-searchicon { padding: 4px;color: #ffffff;background-color: #ff4081;float: right;font-size: 25px;border-radius: 25px ; margin-left: 157px;}
 .right-division{ width: 306px; padding-top: 27px;}
-.categories{font-family: 'Montserrat',sans-serif; letter-spacing: 2px; font-size: 15px;color: #3f51b5;font-weight: 700; border-bottom: 2px solid #becfff  ; padding-bottom: 5px;}
-.category-list{ font-family: "Open-Sans",sans-serif; font-size: 13px; }
-.category-divider{border-bottom: 1px solid #e0e0e0; padding-bottom: 15px; padding-top: 15px;}
+.categories{font-family: 'Montserrat',sans-serif;  font-size: 17px;color: #3f51b5;font-weight: 800; border-bottom: 2px solid #becfff  ; padding-bottom: 5px; letter-spacing: 1px; margin-bottom: 16px;}
+.category-list{ font-family: "Open-Sans",sans-serif; font-size: 13px; letter-spacing: 1px; font-weight: 600; }
+.category-divider{ margin-top: 13px;}
+.category-break{ border: 1px solid #e0e0e0; margin-top: 10px;}
 .category-frequency{font-family: 'Open-Sans',sans-serif; font-weight: 800; font-size: 13px; float: right;}
 .subscribe{ color: #3f51b5;  font-family: 'Open-Sans', sans-serif  ; font-weight: 600; letter-spacing: 1px; padding-top: 50px; border-bottom: 2px solid #becfff; padding-bottom:8px; font-size: 17px;}
 .form-container{  font-weight: 400;font-family: "Open Sans",sans-serif;padding-top: 15px; padding-bottom: 25px;} 
@@ -296,13 +297,12 @@ a.arrowright-icon-container{color: #3f51b5;}
     font-weight: 500;
     font-size: 12px;
     border: 1px solid #3f51b5;
-    border-radius: 5px;
-    
-}
+    border-radius: 5px;}
 .recent{ background-color: #3f51b5; color: #ffffff; padding: 10px 20px 10px 20px ;}
 .popular{background-color: #ffffff; color: #3f51b5; padding: 10px 20px 10px 15px; }
 .grid-column{display: flex; }
-.grid-activity{ display: flex;}
+.grid-activity{ display: flex; font-family: 'Montserrat',sans-serif; color: #3f51b5; font-size: 13px; margin-left: 10px;}
 .grid-img{ background-image: url(./images/rightlist-1.png); background-repeat: no-repeat; height: 80px; width: 100px;}
-.grid-date{ float: left; font-size: 12px;font-family: 'Open-Sans', sans-serif; color: #6b6b6b;}
-.grid-comments{ color: #3f51b5;float: right;}
+.grid-date{ float: left; font-size: 12px;font-family: 'Open-Sans', sans-serif; color: #6b6b6b;  margin-left:6px ; }
+.grid-comments{ color: #3f51b5; font-size: 18px;  margin-bottom: 4px; margin-left: 44px;}
+.grid-content{margin-top: 5px;font-weight: 600;font-size: 15px;font-family: 'Open-Sans', sans-serif;margin-left: 13px;}
