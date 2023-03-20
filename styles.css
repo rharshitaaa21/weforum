@@ -264,9 +264,9 @@ a.arrowright-icon-container{color: #3f51b5;}
 .doublecard-author2{background-image: url('../images/card3-author.png'); background-repeat: no-repeat; height: 56px; width: 56px;}
 .doublecard-heading2{ letter-spacing: 1px; font-size: 18px; font-family: 'Montserrat',sans-serif;
     font-weight: 600; color: #3f51b5;padding: 1px 0px 0px 8px;  margin: 0; font-weight:700;}
-.more{display: flex;float: right;color: #303f9f; margin-top: 40px; }
+.more{display: flex;float: right;color: #303f9f; margin-top: 42px; margin-right: 2px; }
 .blue-arrow{margin-top: 10px; margin-left: 8px;}
-.more-tag{font-family: 'Montserrat',sans-serif;font-size: 15px; font-weight: 600;margin-top: 13px; margin-right: 15px;}
+.more-tag{font-family: 'Montserrat',sans-serif;font-size: 15px; font-weight: 600;margin-top: 13px; margin-right: 12px;}
 .more-arrow{border-radius: 50px;background-color: #ffffff;height: 40px;width: 40px;}  
 .doublecard-heading2 a{color: #3f51b5;}
 .right-division-container{ background-color: white;margin-top: 30px;margin-left: 40px;} 
