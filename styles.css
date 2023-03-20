@@ -266,16 +266,17 @@ a.arrowright-icon-container{color: #3f51b5;}
     font-weight: 600; color: #3f51b5;padding: 1px 0px 0px 8px;  margin: 0; font-weight:700;}  
 .doublecard-heading2 a{color: #3f51b5;}
 .right-division-container{ background-color: white;margin-top: 30px;margin-left: 40px;} 
-.inner-card-container{margin-left: 40px; width: 272px;}
-.searchbar {  background-color: #f5f5f5; width: 263px; padding: 3px; display: flex;  margin-bottom: 24px;
+.inner-card-container{margin-left: 40px; width: 273px;}
+.searchbar {  background-color: #f5f5f5; width: 263px; padding: 4px; display: flex;  margin-bottom: 22px;
     border-radius: 25px; border: 2px solid #ffffff; }
 .searchbar-container { color: #989898;letter-spacing: 1px;  margin-top: 6px; font-family: 'Open-Sans', sans-serif; float: left; margin-left: 12px;}
-.coloured-searchicon { padding: 4px;color: #ffffff;background-color: #ff4081;float: right;font-size: 25px;border-radius: 25px ; margin-left: 157px;}
-.right-division{ width: 306px; padding-top: 27px;}
+.coloured-searchicon { padding: 5px;color: #ffffff;background-color: #ff4081;float: right;font-size: 25px;border-radius: 25px ; margin-left: 158px;}
+.right-division{ width: 306px; padding-top: 25px;}
 .categories{font-family: 'Montserrat',sans-serif;  font-size: 17px;color: #3f51b5;font-weight: 800; border-bottom: 2px solid #becfff  ; padding-bottom: 5px; letter-spacing: 1px; margin-bottom: 16px;}
 .category-list{ font-family: "Open-Sans",sans-serif; font-size: 13px; letter-spacing: 1px; font-weight: 600; }
 .category-divider{ margin-top: 12px;}
 .category-break{ border: 1px solid #e0e0e0; margin-top: 12px;}
+.category-name{}
 .category-frequency{font-family: 'Open-Sans',sans-serif; font-weight: 800; font-size: 13px; float: right;}
 .subscribe{ color: #3f51b5;  font-family: 'Open-Sans', sans-serif  ; font-weight: 800; letter-spacing: 1px; padding-top: 41px; border-bottom: 2px solid #becfff; padding-bottom:7x; font-size: 17px;}
 .form-container{  font-weight: 400;font-family: "Open Sans",sans-serif;padding-top: 15px; padding-bottom: 25px;} 
