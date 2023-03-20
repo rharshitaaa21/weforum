@@ -286,31 +286,34 @@ a.arrowright-icon-container{color: #3f51b5;}
 .form-box{ border: 1px solid #e0e0e0;font-size: 15px;  padding: 13px 70px 14px 17px; margin:10px 0px 10px 0px; border-radius: 5px;  letter-spacing: 1px;}
 
 .form-name{  color: #000000; font-size: 16px; letter-spacing: 1px;}
-.subscribe-btn{ color: #ffffff; background-color: #3f51b5; border: none;padding: 12px 79px 13px 89px; font-size: 16px; font-family: 'Montserrat',sans-serif; font-weight: 600;letter-spacing: 1px; border-radius: 5px;}
-.grid-icons{ display: flex; gap: 6px; margin-top: 15px; }
-.icon-coloured{ border-radius: 50%; color: #ffffff; font-size: 17px; padding: 15px 15px 15px 15px; }
+.subscribe-btn{ color: #ffffff; background-color: #3f51b5; border: none;padding: 12px 76px 13px 89px; font-size: 16px; font-family: 'Montserrat',sans-serif; font-weight: 600;letter-spacing: 1px; border-radius: 5px;}
+.grid-icons{ display: flex; justify-content: space-between; margin-top: 19px; }
+.icon-coloured{ border-radius: 50%; color: #ffffff; font-size: 17px; height: 36px; width: 36px; border-radius: 50%; display: flex; align-items: center; text-align: center;
+}  /* padding: 8px 11px 8px 11px; } */
 .color-f{background-color: #3f51b5;}
 .color-tt{background-color: #55acee;}
 .color-v{background-color: #4c75a3;}
 .color-p{background-color: #ff2e56;}
 .color-t{background-color: #34465d;}
 .color-d{background-color: #ea4c89;}
-.status-btn{
-    margin-top: 20px;
-    display: flex;
-    font-family: 'Montserrat',sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    border: 1px solid #3f51b5;
+.status-btn{margin-top: 17px;display: flex;font-family: 'Montserrat',sans-serif;font-weight: 500;font-size: 12px;border: 1px solid #3f51b5;
     border-radius: 5px;}
-.recent{ background-color: #3f51b5; color: #ffffff; padding: 10px 20px 10px 20px ;}
-.popular{background-color: #ffffff; color: #3f51b5; padding: 10px 20px 10px 15px; }
-.grid-column{display: flex; }
-.grid-activity{ display: flex; font-family: 'Montserrat',sans-serif; color: #3f51b5; font-size: 13px; margin-left: 10px;}
-.grid-img{ background-image: url(./images/rightlist-1.png); background-repeat: no-repeat; height: 80px; width: 100px;}
-.grid-date{ float: left; font-size: 12px;font-family: 'Open-Sans', sans-serif; color: #6b6b6b;  margin-left:6px ; }
-.grid-comments{ color: #3f51b5; font-size: 18px;  margin-bottom: 4px; margin-left: 44px;}
-.grid-content{margin-top: 5px;font-weight: 600;font-size: 15px;font-family: 'Open-Sans', sans-serif;margin-left: 13px;}
-.or-container{ display: flex; font-size: 15px; font-family: "Open-Sans",sans-serif; margin-top:20px}
+.recent{ background-color: #3f51b5; color: #ffffff; padding: 12px 24px 12px 25px ; font-weight: 600;}
+.popular{background-color: #ffffff; color: #3f51b5; padding: 14px 14px 10px 20px;  font-weight: 600;}
+.grid-column{display: flex; margin-top: 17px;  padding-bottom: 17px;}
+.grid-activity{ display: flex; font-family: 'Montserrat',sans-serif; color: #b9c5cd; font-size: 13px; margin-left: 10px;}
+.grid-img{ background-repeat: no-repeat; height: 80px; width: 100px; margin-top: 4px;}
+.grid-img1{ background-image: url(./images/rightlist-1.png); }
+.grid-img2{ background-image: url(./images/rightlist-2.png); }
+.grid-img3{ background-image: url(./images/rightlist-3.png); }
+.grid-img4{ background-image: url(./images/rightlist-4.png); }
+
+
+.grid-date{ float: left; font-size: 12px;font-family: 'Open-Sans', sans-serif; color: #6b6b6b;  margin-left:5px ; margin-top: 1px; }
+.grid-comments{ color: #3f51b5; font-size: 14px;  margin-bottom: 4px; margin-left: 55px; margin-right: 5px;}
+.grid-content{margin-top: 1px;font-weight: 600;font-size: 15px;font-family: 'Open-Sans', sans-serif;margin-left: 16px; line-height: 19px;}
+.or-container{ display: flex; font-size: 17px; font-family: "Open-Sans",sans-serif; margin-top:13px}
 .or-border-left{ border-bottom: 1px solid #000000;width: 120px;    margin-right: 10px;margin-bottom: 8px}
 .or-border-right{border-bottom: 1px solid #000000;width: 120px;  margin-left: 10px;margin-bottom: 8px}
+.tab-post{ color: #3f51b5;  font-family: 'Open-Sans', sans-serif  ; font-weight: 800; margin-top: 43px; border-bottom: 2px solid #becfff;
+padding-bottom:6px; font-size: 17px; margin-right: 3px;}
