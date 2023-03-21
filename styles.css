@@ -343,17 +343,9 @@ font-family: "Open-Sans",sans-serif;   padding: 8px 16px 6px 16px ; font-weight:
 .widget-image8{background-image: url(../images/8.png);} 
 .footer-body-container{display: grid; justify-content: center; overflow: hidden ;}
 .footer{ background-image: url('./images/footer.png'); height: 200px; width: 1920px; overflow-x: hidden;overflow-y: hidden; }
-
-
 .footer-body-container{display: grid; justify-content: center; overflow: hidden ;}
 .footer{ background-image: url('../slider.png'); height: 200px; width: 1920px; overflow-x: hidden;overflow-y: hidden; }
-  
-  section {
-   width: 100%;
-    overflow: hidden;
-  }
-  
-  article {
+  .slider {
     display: flex;
     width: 200%;
     animation: bannermove 20s linear infinite;
