@@ -331,15 +331,50 @@ font-family: "Open-Sans",sans-serif;   padding: 8px 16px 6px 16px ; font-weight:
     font-family: "Open-Sans",sans-serif;   padding: 8px 14px 6px 22px ; font-weight: 500; margin: 15px 6px 0px 0px ;}
 .tags-btn-line3{ border-radius: 3px; letter-spacing: 2px; background-color: #eeeeee; color: #000000; font-size: 12px;
     font-family: "Open-Sans",sans-serif;   padding: 8px 16px 6px 20px ; font-weight: 500; margin: 15px 4px 0px 0px ;}
-.instagram-widgets{ display: flex; }
-.widget-behaviour{height: 240px; width: 240px; background-repeat: no-repeat;}
-.widget-image1{background-image: url(./images/1.png);}
-.widget-image2{background-image: url(./images/2.png);}
-.widget-image3{background-image: url(./images/3.png);}
-.widget-image4{background-image: url(./images/4.png);}
-.widget-image5{background-image: url(./images/5.png);}
-.widget-image6{background-image: url(./images/6.png);}
-.widget-image7{background-image: url(./images/7.png);}
-.widget-image8{background-image: url(./images/8.png);}
-.footer-body-container{display: grid; overflow: hidden;}
+.instagram-widgets{ display: flex; position: relative; height: 240px; width: 1920px; }
+.widget-behaviour{height: 240px; width: 240px; background-repeat: no-repeat; }
+ .widget-image1{background-image: url('../images/1.png');}
+.widget-image2{background-image: url('./images/2.png');}
+.widget-image3{background-image: url(../images/3.png);}
+.widget-image4{background-image: url(../images/4.png);}
+.widget-image5{background-image: url(../images/5.png);}
+.widget-image6{background-image: url(../images/6.png);}
+.widget-image7{background-image: url(../images/7.png);}
+.widget-image8{background-image: url(../images/8.png);} 
+.footer-body-container{display: grid; justify-content: center; overflow: hidden ;}
 .footer{ background-image: url('./images/footer.png'); height: 200px; width: 1920px; overflow-x: hidden;overflow-y: hidden; }
+
+
+.footer-body-container{display: grid; justify-content: center; overflow: hidden ;}
+.footer{ background-image: url('../slider.png'); height: 200px; width: 1920px; overflow-x: hidden;overflow-y: hidden; }
+  
+  section {
+   width: 100%;
+    overflow: hidden;
+  }
+  
+  article {
+    display: flex;
+    width: 200%;
+    animation: bannermove 20s linear infinite;
+    overflow: hidden;
+  }
+  .widget-overflow{overflow: hidden;}
+  
+ul.widgets {
+    display: flex;
+  
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+
+  @keyframes bannermove {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
