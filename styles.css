@@ -12,7 +12,7 @@ body { margin: 0;}
 .right-atag {margin-bottom: 2px;display: flex;}
 .sign-in-icon {    margin-top: 3px;    font-size: 12px;    font-weight: 500;}
 .language-icon {    font-size: 19px;    margin-top: 3px;}
-.eng-icon { width: 24px; font-weight: 500; margin-left: 4px; margin-top: 6px; font-size: 12px;}
+.eng-icon { width: 24px; font-weight: 500; margin-left: 4px; margin-top: 6px; font-size: 12px; }
 .expand-more-icon { margin-top: 2px; margin-left: 1px; font-size: 20px; font-weight: 500px; margin-bottom: 1px; width: 14px;}
 .vertical-line-topbar { border-left: 1px solid #6c6c6c;  height: 20px; margin-top: 3px;}
 .navigationbar {align-items: center; display: flex; justify-content: center;}
@@ -268,7 +268,7 @@ a.arrowright-icon-container{color: #3f51b5;}
 .more{display: flex;float: right;color: #303f9f; margin-top: 42px; margin-right: 2px; }
 .blue-arrow{margin-top: 10px; margin-left: 8px;}
 .more-tag{font-family: 'Montserrat',sans-serif;font-size: 15px; font-weight: 600;margin-top: 13px; margin-right: 12px;}
-.more-arrow{border-radius: 50px;background-color: #ffffff;height: 40px;width: 40px;}  
+.more-arrow{border-radius: 50px;background-color: #ffffff;height: 40px;width: 40px; cursor: pointer;}  
 .doublecard-heading2 a{color: #3f51b5;}
 .right-division-container{ background-color: white;margin-top: 30px;margin-left: 40px;} 
 .inner-card-container{margin-left: 40px; width: 273px;}
@@ -291,7 +291,8 @@ a.arrowright-icon-container{color: #3f51b5;}
 .form-box{ border: 1px solid #e0e0e0;font-size: 15px;  padding: 13px 70px 14px 17px; margin:10px 0px 10px 0px; border-radius: 5px;  letter-spacing: 1px;}
 
 .form-name{  color: #000000; font-size: 16px; letter-spacing: 1px;}
-.subscribe-btn{ color: #ffffff; background-color: #3f51b5; border: none;padding: 12px 76px 13px 89px; font-size: 16px; font-family: 'Montserrat',sans-serif; font-weight: 600;letter-spacing: 1px; border-radius: 5px;}
+.subscribe-btn{ color: #ffffff; background-color: #3f51b5; border: none;padding: 12px 76px 13px 89px; font-size: 16px; 
+    cursor: pointer; font-family: 'Montserrat',sans-serif; font-weight: 600;letter-spacing: 1px; border-radius: 5px;}
 .grid-icons{ display: flex; justify-content: space-between; margin-top: 19px; }
 .icon-coloured{ border-radius: 50%; color: #ffffff; font-size: 17px; height: 36px; width: 36px; border-radius: 50%; display: flex; align-items: center; text-align: center;
 }  /* padding: 8px 11px 8px 11px; } */
@@ -303,8 +304,8 @@ a.arrowright-icon-container{color: #3f51b5;}
 .color-d{background-color: #ea4c89; justify-content: center;}
 .status-btn{margin-top: 17px;display: flex;font-family: 'Montserrat',sans-serif;font-weight: 500;font-size: 12px;border: 1px solid #3f51b5;
     border-radius: 5px;}
-.recent{ background-color: #3f51b5; color: #ffffff; padding: 12px 24px 12px 25px ; font-weight: 600;}
-.popular{background-color: #ffffff; color: #3f51b5; padding: 14px 14px 10px 20px;  font-weight: 600;}
+.recent{ background-color: #3f51b5; color: #ffffff; padding: 12px 24px 12px 25px ; font-weight: 600;cursor: pointer}
+.popular{background-color: #ffffff; color: #3f51b5; padding: 14px 14px 10px 20px;  font-weight: 600; cursor: pointer}
 .grid-column{display: flex; margin-top: 11px;  padding-bottom: 14px; border-bottom: 1px solid #e0e0e0;}
 .grid-activity{ display: flex; font-family: 'Montserrat',sans-serif; color: #b9c5cd; font-size: 13px; margin-left: 10px;}
 .grid-img{ background-repeat: no-repeat; height: 80px; width: 100px; margin-top: 4px;}
@@ -332,41 +333,20 @@ font-family: "Open-Sans",sans-serif;   padding: 8px 16px 6px 16px ; font-weight:
 .tags-btn-line3{ border-radius: 3px; letter-spacing: 2px; background-color: #eeeeee; color: #000000; font-size: 12px;
     font-family: "Open-Sans",sans-serif;   padding: 8px 16px 6px 20px ; font-weight: 500; margin: 15px 4px 0px 0px ;}
 .instagram-widgets{ display: flex; position: relative; height: 240px; width: 1920px; }
-.widget-behaviour{height: 240px; width: 240px; background-repeat: no-repeat; }
- .widget-image1{background-image: url('../images/1.png');}
+.widget-behaviour{height: 239px; width: 238px; background-repeat: no-repeat; object-fit: cover; }
+ .widget-image1{background-image: url('./images/1.png');}
 .widget-image2{background-image: url('./images/2.png');}
-.widget-image3{background-image: url(../images/3.png);}
-.widget-image4{background-image: url(../images/4.png);}
-.widget-image5{background-image: url(../images/5.png);}
-.widget-image6{background-image: url(../images/6.png);}
-.widget-image7{background-image: url(../images/7.png);}
-.widget-image8{background-image: url(../images/8.png);} 
-.footer-body-container{display: grid; justify-content: center; overflow: hidden ;}
-.footer{ background-image: url('./images/footer.png'); height: 200px; width: 1920px; overflow-x: hidden;overflow-y: hidden; }
-.footer-body-container{display: grid; justify-content: center; overflow: hidden ;}
-.footer{ background-image: url('../slider.png'); height: 200px; width: 1920px; overflow-x: hidden;overflow-y: hidden; }
-  .slider {
-    display: flex;
-    width: 200%;
-    animation: bannermove 20s linear infinite;
-    overflow: hidden;
-  }
-  .widget-overflow{overflow: hidden;}
-  
-ul.widgets {
-    display: flex;
-  
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-  }
-  
-
-  @keyframes bannermove {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
+.widget-image3{background-image: url(./images/3.png);}
+.widget-image4{background-image: url(./images/4.png);}
+.widget-image5{background-image: url(./images/5.png);}
+.widget-image6{background-image: url(./images/6.png);}
+.widget-image7{background-image: url(./images/7.png);}
+.widget-image8{background-image: url(./images/8.png);} 
+.footer-body-container{display: grid; justify-content: center; overflow: hidden;}
+.footer{ background-image: url('./images/footer.png'); height: 200px; width: 1920px; overflow-x: hidden; overflow-y: hidden ;
+ -webkit-background-size:cover; max-height: 100%; max-width: 100%; background-position: center; object-fit: cover; }
+.slider-container{overflow: hidden;}
+.slider {display: flex;width: 200%;animation: bannermove 10s linear infinite;overflow: hidden;}
+ul.widgets { display: flex; list-style-type: none;padding-left: 0; margin: 0; }
+@keyframes bannermove {0% {transform: translateX(0);}   100%{transform: translateX(-50%);}}
+.subscription-form{display: flex;}
