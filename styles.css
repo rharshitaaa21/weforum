@@ -326,11 +326,11 @@ padding-bottom:6px; font-size: 17px; margin-right: 3px;}
 border-bottom: 2px solid #becfff; padding-bottom:5px; font-size: 17px; margin-left: 1px;}
 .tags-margin{ margin-bottom: 23px;  }
 .tags-2{ margin-top: 22px; margin-bottom: 21px;}
-.tags-btn-line1{ border-radius: 3px; letter-spacing: 2px; background-color: #eeeeee; color: #000000; font-size: 12px;
+.tags-btn-line1{    cursor: pointer; border-radius: 3px; letter-spacing: 2px; background-color: #eeeeee; color: #000000; font-size: 12px;
 font-family: "Open-Sans",sans-serif;   padding: 8px 16px 6px 16px ; font-weight: 500; margin: 15px 6px 0px 0px ;}
-.tags-btn-line2{border-radius: 3px; letter-spacing: 2px; background-color: #eeeeee; color: #000000; font-size: 12px;
+.tags-btn-line2{    cursor: pointer;border-radius: 3px; letter-spacing: 2px; background-color: #eeeeee; color: #000000; font-size: 12px;
     font-family: "Open-Sans",sans-serif;   padding: 8px 14px 6px 22px ; font-weight: 500; margin: 15px 6px 0px 0px ;}
-.tags-btn-line3{ border-radius: 3px; letter-spacing: 2px; background-color: #eeeeee; color: #000000; font-size: 12px;
+.tags-btn-line3{    cursor: pointer; border-radius: 3px; letter-spacing: 2px; background-color: #eeeeee; color: #000000; font-size: 12px;
     font-family: "Open-Sans",sans-serif;   padding: 8px 16px 6px 20px ; font-weight: 500; margin: 15px 4px 0px 0px ;}
 .instagram-widgets{ display: flex; position: relative; height: 240px; width: 1920px; }
 .widget-behaviour{height: 239px; width: 238px; background-repeat: no-repeat; object-fit: cover; }
@@ -358,6 +358,15 @@ ul.widgets { display: flex; list-style-type: none;padding-left: 0; margin: 0; }
 .h1-bold h2{margin: 0; padding: 0; font-size: 14px; }
 .widget-footer{height: 540px; background-color: #212121; justify-content: center; display: flex;}
 .footer-inner-container{ width: 1170px; display: flex;margin-top: 60px;}
-.page-widget-footer{display: grid;}
-.page-widget-heading{ font-family: 'Montserrat',sans-serif; font-weight: 600; color: #ffffff; font-size: 15px;}
-.page-widget-text{border:2px solid #757575; border-radius: 6px; color: #757575;}
+.page-widget-footer{display: inline;}
+.page-widget-heading{word-spacing: 2px;font-family: 'Montserrat',sans-serif;font-weight: 700;color: #ffffff;font-size: 18px;
+   margin-bottom: 25px;}
+.page-widget-block{border:2px solid #757575; border-radius: 6px; color: #757575;font-family: 'Open-sans',sans-serif;font-size: 15px; 
+display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin-bottom: 5px;}
+.page-widget-icon{ font-size: 25px; margin-left: 129px; margin-bottom: 10px; margin-top: 9px;}
+.page-widget-text{font-size: 13px; margin-top: 13px; letter-spacing: 1px; font-weight: 800;}
+.remove-page-widget{display: grid; border: 2px solid #757575; border-radius: 6px; margin-bottom: 10px;}
+.remove-widget-list{color: #797979; font-family: 'Open-Sans',sans-serif; font-weight: 16px; margin-left: 10px; margin-bottom: 10px;}
+.pages-widget{border: none; border-bottom: 1px solid #757575;}
+.page-widget-container{color: #757575;font-family: 'Open-sans',sans-serif;font-size: 15px; 
+    display: flex; justify-content: space-between; padding: 0px 7px 0px 15px; margin-bottom: 5px; border-bottom: 1px solid #757575;}
