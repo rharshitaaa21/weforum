@@ -358,7 +358,7 @@ ul.widgets { display: flex; list-style-type: none;padding-left: 0; margin: 0; }
 .h1-bold h2{margin: 0; padding: 0; font-size: 14px; }
 .widget-footer{height: 540px; background-color: #212121; justify-content: center; display: flex;}
 .footer-inner-container{ width: 1170px; display: flex;margin-top: 60px;}
-.page-widget-footer{display: inline;}
+.pages-widget-footer{ margin-right: 30px;}
 .page-widget-heading{word-spacing: 2px;font-family: 'Montserrat',sans-serif;font-weight: 700;color: #ffffff;font-size: 18px;
    margin-bottom: 25px;}
 .page-widget-block{border:2px solid #757575; border-radius: 6px; color: #757575;font-family: 'Open-sans',sans-serif;font-size: 15px; 
@@ -373,3 +373,15 @@ display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin
 .pages-widget{border: none; border-bottom: 1px solid #757575;}
 .page-widget-container{color: #757575;font-family: 'Open-sans',sans-serif;font-size: 15px; 
     display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin-bottom: 3px; border-bottom: 1px solid #757575;}
+.twitter-widget-footer{ color: #55acee; font-size: 24px; margin-right: 12px; } 
+.twitter-widget-icon-details{ display: flex; margin-left: 8px;}
+.pasco-twitter-widget{letter-spacing: 0px;}
+.twitter-margin{ margin-bottom: 22px;}
+.twitter-detail-footer{ font-family: 'Open-Sans', sans-serif; font-size: 13px; font-weight: 600; color: #bcbcbc; letter-spacing: 1px; line-height: 21px;}
+.twitter-container-activity{font-family: 'Open-Sans',sans-serif; font-size: 12px; color: #bcbcbc; display: flex; gap: 14px;}
+.activity-border{border:  1px solid #bcbcbc;}
+.twitter-timings{ letter-spacing: 1px;}
+.twitter-arrow-right{font-size: 13px;color:#bcbcbc }
+.activity-underline{ outline: #bcbcbc;}
+.activity-status{ display: grid; font-size: 10px; letter-spacing: 1px;}
+a.activity-underline { color: #bcbcbc }
