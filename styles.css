@@ -350,9 +350,9 @@ font-family: "Open-Sans",sans-serif;   padding: 8px 16px 6px 16px ; font-weight:
 ul.widgets { display: flex; list-style-type: none;padding-left: 0; margin: 0; }
 @keyframes bannermove {0% {transform: translateX(0);}   100%{transform: translateX(-50%);}}
 .subscription-form{display: flex; width: 1170px;margin-bottom: 5px; }
-.newsletter{margin-right: 10px; font-family: 'Montserrat',sans-serif;font-size: 47px;letter-spacing: 2px;color: #ffffff; font-weight: 800;}
-.mail-entry{border-radius: 50px; border: 1px solid #66696b; color: #e0e0e0; background-color: transparent;padding-left: 18px;
-font-size: 16px; letter-spacing: 1px;margin-top: 7px; margin-right: 23px; }
+.newsletter{margin-right: 50px; font-family: 'Montserrat',sans-serif;font-size: 46px;letter-spacing:2px;color: #ffffff; font-weight: 900; word-spacing: 1px;}
+.mail-entry{padding-right: 61px;border-radius: 50px;border: 1px solid #66696b;color: #e0e0e0; background-color: transparent;
+    padding-left: 18px;font-size: 17px;letter-spacing: 2px;margin-top: 7px;margin-right: 23px;}
 .footer-subscribe-btn{    background-color: #303f9f; font-family: 'Montserrat',sans-serif; color: #ffffff; font-size: 17px; border: none;
 border-radius: 25px;  height: 47px; width: 170px; margin-top: 5px;  } 
 .h1-bold h2{margin: 0; padding: 0; font-size: 14px; }
