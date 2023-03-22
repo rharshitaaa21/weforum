@@ -352,5 +352,6 @@ ul.widgets { display: flex; list-style-type: none;padding-left: 0; margin: 0; }
 .subscription-form{display: flex; width: 1170px;margin-top: 71px; }
 .newsletter{margin-right: 40px; font-family: 'Montserrat',sans-serif;font-size: 41px;letter-spacing: 2px;color: #ffffff; font-weight: 800;}
 .mail-entry{height: 40px; width: 248px; border-radius: 50px; border: 1px solid #66696b; color: #e0e0e0; background-color: transparent;padding-left: 18px;
-font-size: 16px; letter-spacing: 1px;margin-top: 7px;  }
-.footer-subscribe-btn{}
+font-size: 16px; letter-spacing: 1px;margin-top: 7px; margin-right: 23px; }
+.footer-subscribe-btn{    background-color: #303f9f; font-family: 'Montserrat',sans-serif; color: #ffffff; font-size: 17px; border: none;
+border-radius: 25px;  height: 47px; width: 170px; margin-top: 5px;  } 
