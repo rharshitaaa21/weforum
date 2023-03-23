@@ -98,7 +98,7 @@ a.card1-date-container{  color: #908f90;}
 .comments-container a{  color: #bebebf;}
 .like-image {font-size: 16px;}
 a.like-image{ color: #ffffff;}
-.middle-division{ background-color: #ffffff; height: 60px;     border-bottom: 2px solid #e6e6e6; align-items: center; justify-content: space-around; display: flex;} 
+.middle-division{ background-color: #ffffff; height: 60px;     border-bottom: 1px solid #e6e6e6; align-items: center; justify-content: space-around; display: flex;} 
 .inner-container{ width: 1170px; display: flex ; padding-left: 6px;}
 .sort-blog{ font-size: 11px; font-family: 'Montserrat', sans-serif;  font-weight: 800; word-spacing: 2px; margin-top: 9px;}
 .colon{ font-size: 16px; font-weight: 900; margin: 6px 20px 0px 1px; }
@@ -111,8 +111,8 @@ a.like-image{ color: #ffffff;}
 .main-body-container { background-color: #f5f5f5; display: grid; grid-template-columns: auto auto; }
 .left-division-container { display: flex; flex-direction: column; align-items: flex-end; padding-bottom: 43px;}
 .centeral-card { display: flex; float: left; margin-top: 30px; background-color: #ffffff; width: 1170px; height: 2608px; }
-.left-division { margin-left: 3px; width: 820px; margin-top: 30px; }
-.image1-container{ display: grid; align-content: center;}
+.left-division { margin-left: 3px; width: 820px; margin-top: 29px; }
+.image1-container{ display: grid; align-content: center; border-bottom: 1px solid #e6e6e6;}
 .image1{ background-image: url(./images/body-1.png); height: 421px; position: relative;}
 .image_play { text-align: center;  top: 43%; color: #ffffff; font-size: 60px; position: absolute;left: 46%;}
 .image_play a{ color: #ffffff;} 
@@ -128,9 +128,11 @@ a.comment-image-card{ color: #ffffff;}
 a.like-image-card{color:#ffffff}
 a.like-image-card{ color: #ffffff; }
 .like-image-card { font-size: 17px; margin-right: 5px ; margin-top: 3px; }
-.image1-caption-container { background-color: #ffffff; padding-bottom: 2px; padding-top: 13px; border-bottom: 1px solid #e0e0e0; }
+.image1-caption-container {padding-left: 19px; background-color: #ffffff; padding-bottom: 2px; padding-top: 14px; border-bottom: 1px solid #e0e0e0; }
 .boldheading-container { word-spacing: 1px; color: #191919; font-size: 17px; letter-spacing: 1px; padding-top: 13px; font-family: 'Montserrat', sans-serif;font-weight: 700; margin-left: 20px; }
-.description-container { line-height: 24px;; margin-left: 18px; margin-top: 8px; letter-spacing: 1px; margin-right: 30px; word-spacing: 1px; font-size: 15px;
+h2.boldheading-container { font-size: 17px; margin: 0; padding: 0;}
+.boldheading-container a{ color: #191919;}
+.description-container { line-height: 24px;;  margin-top: 7px; letter-spacing: 1px; margin-right: 30px; word-spacing: 1px; font-size: 15px;
     font-family: 'Open Sans', sans-serif; }
 .author-details { height: 75px;background-color: #ffffff; display: flex; padding-bottom: 16px; }
 .author-image { height: 55px; margin-top: 18px; margin-left: 20px; }
@@ -161,7 +163,7 @@ letter-spacing: 1px; justify-content: center; margin-right: 5px;}
 .dot-container {  bottom: 33%; right: 10%;position: absolute;  font-size: 20px;}
 .card3-author-container {padding-top: 5px;  margin-left: 10px; font-family: 'Montserrat', sans-serif; word-spacing: 1px; color: #373737; font-weight: 600;font-size: 14px;}
 .dot-container {  bottom: 33%; right: 10%;position: absolute;  font-size: 20px;}
-.dot-bigcontainer{  margin-top: 33px; margin-left: 576px; font-size: 20px; color: #191919;}
+.dot-bigcontainer{  margin-top: 35px; margin-left: 590px; font-size: 20px; color: #191919;}
 .dot-container-vcard3{ margin-top: 15px;display: flex; float: right; margin-left: 345px; font-size: 20px ; color: #191919; }
 a.dot-container{color:#191919}
 .card-dotcontainer{ margin-top: 21px; font-size: 20px; margin-left: 51px; }
@@ -426,4 +428,3 @@ font-size: 16px; border-radius: 4px;padding: 15px 60px 90px 14px; margin-bottom:
 .footbar-search-icon{ font-size: 17px; color: #606060; padding-right: 10px;}
 a.right-atag{ color: #606060;}
 .footer-eng-margin{ margin-left: 71px ; color: #707070; font-family: 'Montserrat',sans-serif;  margin-top: 5px;}
- 
