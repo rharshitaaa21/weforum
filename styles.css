@@ -146,7 +146,9 @@ h2.boldheading-container { font-size: 17px; margin: 0; padding: 0;}
 .divider { border: 1px solid #e0e0e0; }
 .author-name .henry-container { color: #191919; }
 .card1 {box-shadow: 2px 2px #e0e0e0;}
-.card2 { margin-top: 18px; display: flex; background-color: #ffffff; box-shadow: 2px 1px #e0e0e0;  border-radius: 4px;}
+.card2 { margin-top: 21px; display: flex; background-color: #ffffff; box-shadow: 2px 1px #e0e0e0;  border-radius: 4px;}
+.card2-margin-container1{ margin-top: 20px;}
+.card2-margin-container2{ margin-top: 22px;}
 .card2-boldheading-container { font-family: 'Montserrat', sans-serif;color: black;font-size: 16px;font-weight: 900;margin: 0; padding: 10px 23px 10px 19px; }
 .card2-boldheading-container a{ color: black;}
 .image2 { height: 165px; }
