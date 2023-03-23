@@ -305,8 +305,8 @@ a.arrowright-icon-container{color: #3f51b5;}
 .status-btn{margin-top: 17px;display: flex;font-family: 'Montserrat',sans-serif;font-weight: 500;font-size: 12px;border: 1px solid #3f51b5;
     border-radius: 5px;}
 .recent{ background-color: #3f51b5; color: #ffffff; padding: 12px 24px 12px 25px ; font-weight: 600;cursor: pointer}
-.popular{background-color: #ffffff; color: #3f51b5; padding: 14px 14px 10px 20px;  font-weight: 600; cursor: pointer}
-.grid-column{display: flex; margin-top: 11px;  padding-bottom: 14px; border-bottom: 1px solid #e0e0e0;}
+.popular{background-color: #ffffff; color: #3f51b5; padding: 12px 12px 10px 18px; font-weight: 600; cursor: pointer}
+.grid-column{display: flex; margin-top: 11px;  padding-bottom: 16px; border-bottom: 1px solid #e0e0e0;}
 .grid-activity{ display: flex; font-family: 'Montserrat',sans-serif; color: #b9c5cd; font-size: 13px; margin-left: 10px;}
 .grid-img{ background-repeat: no-repeat; height: 80px; width: 100px; margin-top: 4px;}
 .grid-img1{ background-image: url(./images/rightlist-1.png); }
@@ -314,6 +314,7 @@ a.arrowright-icon-container{color: #3f51b5;}
 .grid-img3{ background-image: url(./images/rightlist-3.png); }
 .grid-img4{ background-image: url(./images/rightlist-4.png); }
 .grid-container{ margin-top: 16px;}
+.grid-column-final{display: flex; margin-top: 11px;  padding-bottom: 14px; }
 .grid-date{ float: left; font-size: 12px;font-family: 'Open-Sans', sans-serif; color: #6b6b6b;  margin-left:5px ; margin-top: 1px; }
 .grid-comments{ color: #3f51b5; font-size: 14px;  margin-bottom: 4px; margin-left: 55px; margin-right: 5px;}
 .grid-content{margin-top: 1px;font-weight: 600;font-size: 15px;font-family: 'Open-Sans', sans-serif;margin-left: 16px; line-height: 19px;}
@@ -356,7 +357,7 @@ ul.widgets { display: flex; list-style-type: none;padding-left: 0; margin: 0; }
 .footer-subscribe-btn{ padding: 10px 35px 10px 39px;   background-color: #303f9f; font-family: 'Montserrat',sans-serif; color: #ffffff;
      font-size: 18px; border: none;border-radius: 25px;  margin-top: 5px; letter-spacing: 1px;  } 
 .h1-bold h2{margin: 0; padding: 0; font-size: 14px; }
-.widget-footer{height: 540px; background-color: #212121; justify-content: center; display: flex;}
+.widget-footer-1{height: 540px; background-color: #212121; justify-content: center; display: inherit;}
 .footer-inner-container{ width: 1170px; display: flex;margin-top: 60px;}
 .pages-widget-footer{ margin-right: 30px;}
 .page-widget-heading{word-spacing: 2px;font-family: 'Montserrat',sans-serif;font-weight: 700;color: #ffffff;font-size: 18px;
@@ -390,7 +391,7 @@ display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin
 a.activity-underline { color: #bcbcbc }
 .twitter-widget-container-2{padding-bottom: 13px; border-bottom: 1px solid #2e2e2e; margin-top: 12px;}
 .twitter-widget-container-3{padding-bottom: 13px;  margin-top: 12px;}
-.social-widget-margin{margin-bottom: 20px;margin-top: 14px;}
+.social-widget-margin{margin-bottom: 17px;margin-top: 16px;}
 .twitter-widget-socialicons{ gap: 10px; display: flex}
 .flicker-widget-footer{ display: inline; margin-right: 28px; margin-left: 21px;}
 .flicker-grid-container{display: grid;grid-template-columns: auto auto auto; grid-gap: 5px;}
@@ -405,10 +406,13 @@ a.activity-underline { color: #bcbcbc }
 .flicker-grid-item9{background-image: url(./images/widget-9.png);}
 .common-grid-item{width: 88px;background-position: center;height: 88px;background-repeat: no-repeat;  }
 .news-input{background-color: transparent; border: 1px solid #6a6a6a; font-family: 'Open-Sans', sans-serif;
-font-size: 16px; border-radius: 4px;padding: 15px 60px 9px 14px;margin-bottom: 12px;   }
+font-size: 16px; border-radius: 4px;padding: 15px 60px 9px 14px;margin-bottom: 10px;   }
 .newsletter-widget-heading{word-spacing: 2px;font-family: 'Montserrat',sans-serif;font-weight: 700;color: #ffffff;font-size: 18px;
-    margin-bottom: 25px;}
+    margin-bottom: 27px;}
 .newsletter-widget-footer{display: inline; }
 .news-input-2{background-color: transparent; border: 1px solid #6a6a6a; font-family: 'Open-Sans', sans-serif;
-font-size: 16px; border-radius: 4px;padding: 15px 60px 100px 14px; margin-bottom: 12px;}
-.subscribe-btn-color{ background-color: #303030;}
+font-size: 16px; border-radius: 4px;padding: 15px 60px 90px 14px; margin-bottom: 12px;}
+.subscribe-btn-color{ background-color: #303030; font-size: 12px; padding-right: 100px};
+.widget-footer-2{background-color: #303030; height: 50px; justify-content: center; display: flex;}
+.bottom-footer{ background-color: #303030; height: 50px; justify-content: center; display: flex;}
+.inner-bottom-container{width: 1170px;}
