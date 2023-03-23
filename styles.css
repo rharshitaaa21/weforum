@@ -413,6 +413,17 @@ font-size: 16px; border-radius: 4px;padding: 15px 60px 9px 14px;margin-bottom: 1
 .news-input-2{background-color: transparent; border: 1px solid #6a6a6a; font-family: 'Open-Sans', sans-serif;
 font-size: 16px; border-radius: 4px;padding: 15px 60px 90px 14px; margin-bottom: 12px;}
 .subscribe-btn-color{ background-color: #303030; font-size: 12px; padding-right: 100px};
-.widget-footer-2{background-color: #303030; height: 50px; justify-content: center; display: flex;}
-.bottom-footer{ background-color: #303030; height: 50px; justify-content: center; display: flex;}
-.inner-bottom-container{width: 1170px;}
+.widget-footer-2{background-color: #303030; height: 80px; justify-content: center; display: flex;}
+.bottom-footer{ background-color: #303030; height: 80px; justify-content: center; display: flex; align-items: center;}
+.inner-bottom-container{width: 1170px; display: flex}
+.footbar-btn-list{font-family: 'Montserrat',sans-serif; font-size: 12px; color: #ffffff; font-weight: 600; margin-top: 12px;}
+.footbar-btn-list a{color: #ffffff;}
+.footbar-btn-margin{margin-right: 40px;}
+.footbar-searchbar{ border: 1px solid #6a6a6a;border-radius: 25px;padding: 6px 0px 6px 8px;
+    background-color: transparent; margin-left: 130px;}
+.placeholder-footbar{letter-spacing: 1px;width: 166px;  background-color: transparent;border: none;outline: none;
+    margin-left: 10px;font-size: 15px;}
+.footbar-search-icon{ font-size: 17px; color: #606060; padding-right: 10px;}
+a.right-atag{ color: #606060;}
+.footer-eng-margin{ margin-left: 71px ; color: #707070; font-family: 'Montserrat',sans-serif;  margin-top: 5px;}
+ 
