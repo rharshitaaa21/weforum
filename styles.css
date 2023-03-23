@@ -380,7 +380,7 @@ display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin
  .twitter-widget-container-1{padding-bottom: 13px; border-bottom: 1px solid #2e2e2e;}
 .twitter-detail-footer{margin-left: 1px; font-family: 'Open-Sans', sans-serif; font-size: 13px; font-weight: 600; color: #bcbcbc; letter-spacing: 1px; line-height: 21px;}
 .twitter-container-activity{font-family: 'Open-Sans',sans-serif; margin-top: 7px; font-size: 11px; color: #bcbcbc; display: flex;}
-.activity-border{margin-left: 5px;}
+/* .activity-border{margin-left: 5px;} */
 .twitter-timings{ letter-spacing: 1px; font-size: 12px  ;}
 .twitter-arrow-right{font-size: 13px;color:#bcbcbc ;margin-left: 9px; margin-right: 10px;}
 .activity-underline{ outline: #bcbcbc;     border-bottom: 1px solid #bcbcbc;}
@@ -391,7 +391,7 @@ a.activity-underline { color: #bcbcbc }
 .twitter-widget-container-3{padding-bottom: 13px;  margin-top: 12px;}
 .social-widget-margin{margin-bottom: 20px;margin-top: 14px;}
 .twitter-widget-socialicons{ gap: 10px; display: flex}
-.flicker-widget-footer{ display: inline; margin-right: 30px; margin-left: 21px;}
+.flicker-widget-footer{ display: inline; margin-right: 28px; margin-left: 21px;}
 .flicker-grid-container{display: grid;grid-template-columns: auto auto auto; grid-gap: 5px;}
 .flicker-grid-item1{background-image: url(./images/widget-1.png);}
 .flicker-grid-item2{background-image: url(./images/widget-2.png);}
@@ -404,9 +404,9 @@ a.activity-underline { color: #bcbcbc }
 .flicker-grid-item9{background-image: url(./images/widget-9.png);}
 .common-grid-item{width: 88px;background-position: center;height: 88px;background-repeat: no-repeat;  }
 .news-input{background-color: transparent; border: 1px solid #6a6a6a; font-family: 'Open-Sans', sans-serif;
-font-size: 16px; border-radius: 4px;padding: 15px 60px 10px 14px;margin-bottom: 12px;   }
+font-size: 16px; border-radius: 4px;padding: 15px 60px 9px 14px;margin-bottom: 12px;   }
 .newsletter-widget-heading{word-spacing: 2px;font-family: 'Montserrat',sans-serif;font-weight: 700;color: #ffffff;font-size: 18px;
     margin-bottom: 25px;}
 .newsletter-widget-footer{display: inline; }
 .news-input-2{background-color: transparent; border: 1px solid #6a6a6a; font-family: 'Open-Sans', sans-serif;
-font-size: 16px; border-radius: 4px;padding: 15px 60px 10px 14px; margin-bottom: 12px;   }
+font-size: 16px; border-radius: 4px;padding: 15px 60px 100px 14px; margin-bottom: 12px;   }
