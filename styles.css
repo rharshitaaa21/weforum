@@ -377,7 +377,7 @@ display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin
 .twitter-widget-icon-details{ display: flex; margin-left: 8px;}
 .pasco-twitter-widget{letter-spacing: 0px;}
  .twitter-margin{ margin-bottom: 23px;} 
- .twitter-widget-container-1{padding-bottom: 13px; border-bottom: 1px solid #2e2e2e;}
+ .twitter-widget-container-1{padding-bottom: 14px; border-bottom: 1px solid #2e2e2e;}
 .twitter-detail-footer{margin-left: 1px; font-family: 'Open-Sans', sans-serif; font-size: 13px; font-weight: 600; color: #bcbcbc; letter-spacing: 1px; line-height: 21px;}
 .twitter-container-activity{font-family: 'Open-Sans',sans-serif; margin-top: 7px; font-size: 11px; color: #bcbcbc; display: flex;}
 /* .activity-border{margin-left: 5px;} */
@@ -385,7 +385,8 @@ display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin
 .twitter-arrow-right{font-size: 13px;color:#bcbcbc ;margin-left: 9px; margin-right: 10px;}
 .activity-underline{ outline: #bcbcbc;     border-bottom: 1px solid #bcbcbc;}
 .icon-line-2{ margin-left: 3px;}
-.activity-status{ display: grid; font-size: 11px; letter-spacing: 1px; margin-right: 8px;}
+.activity-status{ display: grid; font-size: 11px; letter-spacing: 1px; margin-right: 10px;border-bottom: 1px solid #bcb}
+.activity-status a{ color: #bcbcbc;}
 a.activity-underline { color: #bcbcbc }
 .twitter-widget-container-2{padding-bottom: 13px; border-bottom: 1px solid #2e2e2e; margin-top: 12px;}
 .twitter-widget-container-3{padding-bottom: 13px;  margin-top: 12px;}
