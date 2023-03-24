@@ -294,34 +294,34 @@ a.arrowright-icon-container{color: #3f51b5;}
 .subscribe-btn{ color: #ffffff; background-color: #3f51b5; border: none;padding: 13px 76px 12px 89px; font-size: 16px; 
     cursor: pointer; font-family: 'Montserrat',sans-serif; font-weight: 600;letter-spacing: 1px; border-radius: 5px;}
 .grid-icons{ display: flex; justify-content: space-between; margin-top: 19px; }
-.icon-coloured{ border-radius: 50%; color: #ffffff; font-size: 17px; height: 36px; width: 36px; border-radius: 50%; display: flex; align-items: center; text-align: center;
-}  /* padding: 8px 11px 8px 11px; } */
+.icon-coloured{ border-radius: 50px; color: #ffffff; font-size: 17px; height: 36px; width: 36px;  display: flex; align-items: center; 
+}
 .color-f{background-color: #3f51b5; justify-content: center;}
 .color-tt{background-color: #55acee; justify-content: center;}
 .color-v{background-color: #4c75a3; justify-content: center;}
 .color-p{background-color: #ff2e56; justify-content: center;}
 .color-t{background-color: #34465d; justify-content: center;}
 .color-d{background-color: #ea4c89; justify-content: center;}
-.status-btn{margin-top: 17px;display: flex;font-family: 'Montserrat',sans-serif;font-weight: 500;font-size: 12px;border: 1px solid #3f51b5;
-    border-radius: 3px;}
+.status-btn{margin-top: 18px;display: flex;font-family: 'Montserrat',sans-serif;font-weight: 500;font-size: 12px;border: 1px solid #3f51b5;
+    border-radius: 3px;margin-right: 2px;}
 .recent{ background-color: #3f51b5; color: #ffffff; padding: 13px 24px 11px 24px; font-weight: 600;cursor: pointer}
 .popular{background-color: #ffffff; color: #3f51b5;padding: 13px 12px 9px 18px;font-weight: 600; cursor: pointer}
-.grid-column{display: flex; margin-top: 11px;  padding-bottom: 16px; border-bottom: 1px solid #e0e0e0;}
+.grid-column{display: flex; margin-top: 11px;  padding-bottom: 15px; border-bottom: 1px solid #e0e0e0;}
 .grid-activity{ display: flex; font-family: 'Montserrat',sans-serif; color: #b9c5cd; font-size: 13px; margin-left: 10px;}
 .grid-img{ background-repeat: no-repeat; height: 80px; width: 100px; margin-top: 4px;}
 .grid-img1{ background-image: url(./images/rightlist-1.png); }
 .grid-img2{ background-image: url(./images/rightlist-2.png); }
 .grid-img3{ background-image: url(./images/rightlist-3.png); }
 .grid-img4{ background-image: url(./images/rightlist-4.png); }
-.grid-container{ margin-top: 16px;}
+.grid-container{ margin-top: 17px; margin-left: 1px;}
 .grid-column-final{display: flex; margin-top: 11px;  padding-bottom: 14px; }
 .grid-date{ float: left; font-size: 12px;font-family: 'Open-Sans', sans-serif; color: #6b6b6b;  margin-left:5px ; margin-top: 1px; }
-.grid-comments{ color: #3f51b5; font-size: 14px;  margin-bottom: 4px; margin-left: 55px; margin-right: 5px;}
-.grid-content{margin-top: 1px;font-weight: 600;font-size: 15px;font-family: 'Open-Sans', sans-serif;margin-left: 16px; line-height: 21px;}
+.grid-comments{ color: #3f51b5; font-size: 14px;  margin-bottom: 4px; margin-left: 52px; margin-right: 5px;}
+.grid-content{margin-top: 1px;font-weight: 600;font-size: 15px;font-family: 'Open-Sans', sans-serif;margin-left: 15px; line-height: 21px;}
 .or-container{ display: flex; font-size: 17px; font-family: "Open-Sans",sans-serif; margin-top:14px}
 .or-border-left{ border-bottom: 1px solid #000000;width: 120px;    margin-right: 9px;margin-bottom: 8px}
 .or-border-right{border-bottom: 1px solid #000000;width: 120px;  margin-left: 6px;margin-bottom: 8px}
-.tab-post{ color: #3f51b5;  font-family: 'Open-Sans', sans-serif  ; font-weight: 800; margin-top: 43px; border-bottom: 2px solid #becfff;
+.tab-post{ word-spacing: 2px; color: #3f51b5;  font-family: 'Open-Sans', sans-serif  ; font-weight: 800; margin-top: 42px; border-bottom: 1px solid #becfff;
 padding-bottom:6px; font-size: 17px; margin-right: 3px;}
 .right-tags-container{ margin-top: 8px; color: #3f51b5;  font-family: 'Open-Sans', sans-serif  ; font-weight: 800; margin-left: 1px; padding-top: 23px;
 border-bottom: 2px solid #becfff; padding-bottom:5px; font-size: 17px; margin-left: 1px;}
