@@ -302,6 +302,7 @@ a.arrowright-icon-container{color: #3f51b5;}
 .color-p{background-color: #ff2e56; justify-content: center;}
 .color-t{background-color: #34465d; justify-content: center;}
 .color-d{background-color: #ea4c89; justify-content: center;}
+a.category-name { color: #191911;}
 .status-btn{margin-top: 18px;display: flex;font-family: 'Montserrat',sans-serif;font-weight: 500;font-size: 12px;border: 1px solid #3f51b5;
     border-radius: 3px;margin-right: 2px;}
 .recent{ background-color: #3f51b5; color: #ffffff; padding: 13px 24px 11px 24px; font-weight: 600;cursor: pointer}
@@ -350,25 +351,25 @@ font-family: "Open-Sans",sans-serif;   padding: 8px 16px 6px 16px ; font-weight:
 .slider {display: flex;width: 200%;animation: bannermove 40s linear infinite;}
 ul.widgets { display: flex; list-style-type: none;padding-left: 0; margin: 0; }
 @keyframes bannermove {0% {transform: translateX(0);}   100%{transform: translateX(-50%);}}
-.subscription-form{display: flex;margin-bottom: 5px; }
+.subscription-form{display: flex;margin-bottom: 5px; margin-right: 7px; }
 .newsletter{margin-right: 42px; font-family: 'Montserrat',sans-serif;font-size: 40px;letter-spacing:2px;color: #ffffff;font-weight: 900;}
-.mail-entry{padding-right: 35px;border-radius: 50px;border: 1px solid #66696b;color: #e0e0e0; background-color: transparent;
-    padding-left: 18px;font-size: 17px;letter-spacing: 2px;margin-top: 7px; padding-top: 3px; margin-right: 34px;}
-.footer-subscribe-btn{ padding: 10px 35px 10px 39px;   background-color: #303f9f; font-family: 'Montserrat',sans-serif; color: #ffffff;
-     font-size: 18px; border: none;border-radius: 25px;  margin-top: 5px; letter-spacing: 1px;  } 
+.mail-entry{padding-right: 57px;border-radius: 50px;border: 1px solid #66696b;color: #e0e0e0; background-color: transparent;
+    padding-left: 18px;font-size: 16px;letter-spacing: 2px;margin-top: 7px; padding-top: 3px; margin-right: 31px;}
+.footer-subscribe-btn{ padding: 10px 32px 10px 33px;   background-color: #303f9f; font-family: 'Montserrat',sans-serif; color: #ffffff;
+     font-size: 16px; border: none;border-radius: 25px;  margin-top: 5px; letter-spacing: 1px;  } 
 .h1-bold h2{margin: 0; padding: 0; font-size: 14px; }
 .widget-footer-1{height: 540px; background-color: #212121; justify-content: center; display: inherit;}
-.footer-inner-container{ width: 1170px; display: flex;margin-top: 60px;}
+.footer-inner-container{ width: 1170px; display: flex;margin-top: 45px; margin-left: 2px;}
 .pages-widget-footer{ margin-right: 30px;}
 .page-widget-heading{word-spacing: 2px;font-family: 'Montserrat',sans-serif;font-weight: 700;color: #ffffff;font-size: 18px;
-   margin-bottom: 25px;}
+   margin-bottom: 26px;}
 .page-widget-block{border:2px solid #757575; border-radius: 6px; color: #757575;font-family: 'Open-sans',sans-serif;font-size: 15px; 
 display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin-bottom: 2px;}
 .page-widget-icon{ font-size: 25px; margin-left: 129px; margin-bottom: 10px; margin-top: 9px;}
 .page-widget-text{font-size: 13px; margin-top: 13px; letter-spacing: 1px; font-weight: 800; color: #bcbcbc;}
-.remove-page-widget{display: grid; border: 2px solid #757575; border-radius: 6px; margin-bottom: 3px;}
+.remove-page-widget{display: grid; border: 2px solid #757575; border-radius: 6px; margin-bottom: 4px;}
 .page-widget-text-2{font-size: 13px; margin-top: 14px;  font-weight: 800; color: #bcbcbc;}
-.page-widget-text-3{font-size: 13px; margin-top: 16px; letter-spacing: 1px; font-weight: 800; color: #bcbcbc;}
+.page-widget-text-3{font-size: 13px; margin-top: 15px; letter-spacing: 1px; font-weight: 800; color: #bcbcbc;}
 .widget-margin{margin-top: 14px;}
 .remove-widget-list{color: #797979; font-family: 'Open-Sans',sans-serif; font-size: 13px; letter-spacing: 1px; margin-left: 12px; margin-bottom: 21px;}
 .pages-widget{border: none; border-bottom: 1px solid #757575;}
@@ -396,6 +397,7 @@ a.activity-underline { color: #bcbcbc }
 .flicker-widget-footer{ display: inline; margin-right: 28px; margin-left: 21px;}
 .flicker-grid-container{display: grid;grid-template-columns: auto auto auto; grid-gap: 5px;}
 .flicker-grid-item1{background-image: url(./images/widget-1.png);}
+.hidden-list{ display: grid}
 .flicker-grid-item2{background-image: url(./images/widget-2.png);}
 .flicker-grid-item3{background-image: url(./images/widget-3.png);}
 .flicker-grid-item4{background-image: url(./images/widget-4.png);}
