@@ -362,14 +362,14 @@ ul.widgets { display: flex; list-style-type: none;padding-left: 0; margin: 0; }
 .footer-inner-container{ width: 1170px; display: flex;margin-top: 45px; margin-left: 2px;}
 .pages-widget-footer{ margin-right: 30px;}
 .page-widget-heading{word-spacing: 2px;font-family: 'Montserrat',sans-serif;font-weight: 700;color: #ffffff;font-size: 18px;
-   margin-bottom: 26px;}
+   margin-bottom: 25px; margin-top: 1px;}
 .page-widget-block{border:2px solid #757575; border-radius: 6px; color: #757575;font-family: 'Open-sans',sans-serif;font-size: 15px; 
 display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin-bottom: 2px;}
 .page-widget-icon{ font-size: 25px; margin-left: 129px; margin-bottom: 10px; margin-top: 9px;}
 .page-widget-text{font-size: 13px; margin-top: 13px; letter-spacing: 1px; font-weight: 800; color: #bcbcbc;}
 .remove-page-widget{display: grid; border: 2px solid #757575; border-radius: 6px; margin-bottom: 4px;}
 .page-widget-text-2{font-size: 13px; margin-top: 14px;  font-weight: 800; color: #bcbcbc;}
-.page-widget-text-3{font-size: 13px; margin-top: 15px; letter-spacing: 1px; font-weight: 800; color: #bcbcbc;}
+.page-widget-text-3{font-size: 13px; margin-top: 14px; letter-spacing: 1px; font-weight: 800; color: #bcbcbc;}
 .widget-margin{margin-top: 14px;}
 .remove-widget-list{color: #797979; font-family: 'Open-Sans',sans-serif; font-size: 13px; letter-spacing: 1px; margin-left: 12px; margin-bottom: 21px;}
 .pages-widget{border: none; border-bottom: 1px solid #757575;}
@@ -379,7 +379,7 @@ display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin
 .twitter-widget-icon-details{ display: flex; margin-left: 8px;}
 .pasco-twitter-widget{letter-spacing: 0px;}
  .twitter-margin{ margin-bottom: 23px;} 
- .twitter-widget-container-1{padding-bottom: 14px; border-bottom: 1px solid #2e2e2e;}
+ .twitter-widget-container-1{padding-bottom: 13px; border-bottom: 1px solid #2e2e2e;}
 .twitter-detail-footer{margin-left: 1px; font-family: 'Open-Sans', sans-serif; font-size: 13px; font-weight: 600; color: #bcbcbc; letter-spacing: 1px; line-height: 21px;}
 .twitter-container-activity{font-family: 'Open-Sans',sans-serif; margin-top: 7px; font-size: 11px; color: #bcbcbc; display: flex;}
 /* .activity-border{margin-left: 5px;} */
@@ -387,15 +387,16 @@ display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin
 .twitter-arrow-right{font-size: 13px;color:#bcbcbc ;margin-left: 9px; margin-right: 10px;}
 .activity-underline{ outline: #bcbcbc;     border-bottom: 1px solid #bcbcbc;}
 .icon-line-2{ margin-left: 3px;}
-.activity-status{ display: grid; font-size: 11px; letter-spacing: 1px; margin-right: 10px;border-bottom: 1px solid #bcb}
+.activity-blocks{ display: flex; gap: 15px; margin-top: 1px; margin-left: 1px;}
+.activity-status{ font-size: 11px; letter-spacing: 1px; border-bottom: 1px solid #bcb}
 .activity-status a{ color: #bcbcbc;}
 a.activity-underline { color: #bcbcbc }
 .twitter-widget-container-2{padding-bottom: 13px; border-bottom: 1px solid #2e2e2e; margin-top: 12px;}
 .twitter-widget-container-3{padding-bottom: 13px;  margin-top: 12px;}
-.social-widget-margin{margin-bottom: 17px;margin-top: 16px;}
+.social-widget-margin{margin-bottom: 17px;margin-top: 13px;}
 .twitter-widget-socialicons{ gap: 10px; display: flex}
 .flicker-widget-footer{ display: inline; margin-right: 28px; margin-left: 21px;}
-.flicker-grid-container{display: grid;grid-template-columns: auto auto auto; grid-gap: 5px;}
+.flicker-grid-container{display: grid;grid-template-columns: auto auto auto; grid-gap: 4px;}
 .flicker-grid-item1{background-image: url(./images/widget-1.png);}
 .hidden-list{ display: grid}
 .flicker-grid-item2{background-image: url(./images/widget-2.png);}
@@ -408,13 +409,14 @@ a.activity-underline { color: #bcbcbc }
 .flicker-grid-item9{background-image: url(./images/widget-9.png);}
 .common-grid-item{width: 88px;background-position: center;height: 88px;background-repeat: no-repeat;  }
 .news-input{background-color: transparent; border: 1px solid #6a6a6a; font-family: 'Open-Sans', sans-serif;
-font-size: 16px; border-radius: 4px;padding: 15px 60px 9px 14px;margin-bottom: 10px;   }
+font-size: 16px; border-radius: 4px;padding: 15px 60px 9px 14px;margin-bottom: 11px;   }
 .newsletter-widget-heading{word-spacing: 2px;font-family: 'Montserrat',sans-serif;font-weight: 700;color: #ffffff;font-size: 18px;
-    margin-bottom: 27px;}
+    margin-bottom: 26px; margin-top: 1px;}
 .newsletter-widget-footer{display: inline; }
 .news-input-2{background-color: transparent; border: 1px solid #6a6a6a; font-family: 'Open-Sans', sans-serif;
-font-size: 16px; border-radius: 4px;padding: 15px 60px 90px 14px; margin-bottom: 12px;}
-.subscribe-btn-color{ background-color: #303030; font-size: 12px; padding-right: 100px};
+font-size: 16px; border-radius: 4px;padding: 15px 60px 83px 14px; margin-bottom: 12px;}
+.subscribe-btn-footer{ background-color: #303030; font-size: 12px; padding-right: 100px ;color: #ffffff; letter-spacing: 1px;
+    border-radius: 5px;border: none;padding: 13px 91px 12px 96px;cursor: pointer;font-family: 'Montserrat',sans-serif; font-weight: 600;}
 .widget-footer-2{background-color: #303030; height: 80px; justify-content: center; display: flex;}
 .bottom-footer{ background-color: #303030; height: 80px; justify-content: center; display: flex; align-items: center;}
 .inner-bottom-container{width: 1170px; display: flex}
