@@ -271,21 +271,21 @@ a.arrowright-icon-container{color: #3f51b5;}
 .more-arrow{border-radius: 50px;background-color: #ffffff;height: 40px;width: 40px; cursor: pointer;}  
 .doublecard-heading2 a{color: #3f51b5;}
 .right-division-container{ background-color: white;margin-top: 30px;margin-left: 40px;} 
-.inner-card-container{margin-left: 39px; width: 273px;}
+.inner-card-container{margin-left: 38px; width: 273px;}
 .searchbar {  background-color: #f5f5f5;  padding: 4px;  display: flex; margin-bottom: 22px;
     border-radius: 25px; border: 2px solid #ffffff;border-radius: 25px;padding: 6px 0px 6px 8px;}
 .searchbar-container { color: #989898;letter-spacing: 1px;  margin-top: 6px; font-family: 'Open-Sans', sans-serif; float: left; margin-left: 12px;}
 .coloured-searchicon { padding: 5px;color: #ffffff;background-color: #ff4081;float: right;font-size: 25px;border-radius: 25px ;
  margin-left: 43px;}
 .right-division{ width: 306px; padding-top: 20px;}
-.categories{font-family: 'Montserrat',sans-serif;  font-size: 17px;color: #3f51b5;font-weight: 800; border-bottom: 2px solid #becfff  ; padding-bottom: 5px; letter-spacing: 1px; margin-bottom: 13px;}
+.categories{font-family: 'Montserrat',sans-serif;  font-size: 17px;color: #3f51b5;font-weight: 800; border-bottom: 2px solid #becfff  ; padding-bottom: 6px; letter-spacing: 1px; margin-bottom: 13px;}
 .category-list{ font-family: "Open-Sans",sans-serif; font-size: 13px; letter-spacing: 1px; font-weight: 600; gap: 10px;display: grid; }
 .category-divider{display: flex;justify-content: space-between;}
 .category-break{ border: 1px solid #e0e0e0;}
-.category-name{ margin-top: 3px;}
-.category-name-1{ margin-top: 3px;}
+.category-name{ margin-top: 2px;}
+
 .category-frequency{font-family: 'Open-Sans',sans-serif; font-weight: 800; font-size: 13px; float: right;}
-.category-frequency-1{font-family: 'Open-Sans',sans-serif; font-weight: 800; font-size: 13px; float: right; margin-top: 1px;}
+
 .subscribe{ color: #3f51b5;  font-family: 'Open-Sans', sans-serif  ; font-weight: 800; margin-left: 1px; padding-top: 37px; border-bottom: 2px solid #becfff; padding-bottom:5px; font-size: 17px; margin-left: 1px;}
 .form-container{  font-weight: 400;font-family: "Open Sans",sans-serif;padding-top: 11px; } 
 .form-box{ border: 1px solid #e0e0e0;font-size: 15px;  padding: 13px 70px 14px 17px; margin:10px 0px 10px 0px; border-radius: 5px;  letter-spacing: 1px;}
