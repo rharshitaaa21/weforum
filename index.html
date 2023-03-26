@@ -895,38 +895,80 @@
             <div class="footer-inner-container">
                 <div class="pages-widget-footer">
                     <div class="page-widget-heading">PAGES WIDGET</div>
-                    <div class="page-widget-block"><span class="page-widget-text">HOME</span> <a onclick="myFunction()"
-                                class="material-icons-outlined page-widget-icon">
-                                add
-                    </a></div>
+                    <div class="accordion">
+                        <div class="accordion-container">
+                            <div class="label">
+                                <div class="page-widget-text">HOME</div>
+                            </div>
 
-                    <div class="remove-page-widget">
-                        <div class="page-widget-container"><span class="page-widget-text-2">PAGES</span> <a  
-                                    onclick="myFunction()" class="material-icons-outlined page-widget-icon">
-                                    remove
-                                </a>
-                        </div> 
-                            
-                            <span class="hidden-list">
-                            <span class="remove-widget-list widget-margin">Service</span>
-                            <span class="remove-widget-list">FAQ</span>
-                            <span class="remove-widget-list">About</span></span>
-
-
+                            <div class="panel">
+                                <span >Service</span>
+                                <span >FAQ</span>
+                                <span>About</span>
+                            </div>
+                        </div>
 
                     </div>
-                    <div class="page-widget-block"><span class="page-widget-text-3">PORTFOLIO</span> <a><span
-                                class="material-icons-outlined page-widget-icon">
-                                add
-                            </span></a></div>
-                    <div class="page-widget-block"><span class="page-widget-text-3">BLOG</span> <a><span
-                                class="material-icons-outlined page-widget-icon">
-                                add
-                            </span></a></div>
-                    <div class="page-widget-block"><span class="page-widget-text-3">SHOP</span> <a><span
-                                class="material-icons-outlined page-widget-icon">
-                                add
-                            </span></a></div>
+                    <!-- <div class="accordion">
+                        <div class="accordion-container">
+                            <div class="label">
+                                <div class="page-widget-text">PAGES</div>
+                            </div>
+
+                            <div class="panel">
+                                <span class="remove-widget-list widget-margin">Service</span>
+                                <span class="remove-widget-list">FAQ</span>
+                                <span class="remove-widget-list">About</span>
+                            </div>
+                        </div>
+
+                    </div> -->
+                   <!-- <div class="accordion">
+                        <div class="accordion-container">
+                            <div class="label">
+                                <div class="page-widget-text">PORTFOLIO</div>
+                            </div>
+
+                            <div class="panel">
+                                <span class="remove-widget-list widget-margin">Service</span>
+                                <span class="remove-widget-list">FAQ</span>
+                                <span class="remove-widget-list">About</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-container">
+                            <div class="label">
+                                <div class="page-widget-text">BLOG</div>
+                            </div>
+
+                            <div class="panel">
+                                <span class="remove-widget-list widget-margin">Service</span>
+                                <span class="remove-widget-list">FAQ</span>
+                                <span class="remove-widget-list">About</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-container">
+                            <div class="label">
+                                <div class="page-widget-text">SHOP</div>
+                            </div>
+
+                            <div class="panel">
+                                <span class="remove-widget-list widget-margin">Service</span>
+                                <span class="remove-widget-list">FAQ</span>
+                                <span class="remove-widget-list">About</span>
+                            </div>
+                        </div>
+                    </div> 
+ -->
+
+
+                       
+                            
                 </div>
                 <div class="twitter-widget-footer">
                     <div class="page-widget-heading twitter-margin">TWITTER WIDGET</div>
@@ -975,23 +1017,20 @@
                             <span class="twitter-timings">2 hours ago </span>
                             <i class="fa fa-long-arrow-right twitter-arrow-right" aria-hidden="true"></i>
                             <span class="activity-blocks">
-                            
                                 <span class="activity-status"> <a href="">Reply</a> </span>
                                 <span class="activity-status"> <a href="">Retweet</a></span>
                                 <span class="activity-status"> <a href="">Favorite</a></span>  </span>
                         </div>
-
-
                     </div>
-
                     <div class="page-widget-heading social-widget-margin ">SOCIAL WIDGET</div>
                     <div class=" twitter-widget-socialicons">
-                        <div class="color-f icon-coloured"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-                        <div class="color-tt icon-coloured"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-                        <div class="color-v icon-coloured"><i class="fa fa-vk" aria-hidden="true"></i></div>
-                        <div class="color-p icon-coloured"><i class="fa fa-pinterest-p" aria-hidden="true"></i></div>
-                        <div class="color-t icon-coloured"><i class="fa fa-tumblr" aria-hidden="true"></i></div>
-                        <div class="color-d icon-coloured"> <i class="fa fa-dribbble" aria-hidden="true"></i></div>
+                        <a href="#" class="color-f icon-coloured"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" class="color-tt icon-coloured"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" class="color-v icon-coloured"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                        <a href="#" class="color-p icon-coloured"><i class="fa fa-pinterest-p"
+                                aria-hidden="true"></i></a>
+                        <a href="#" class="color-t icon-coloured"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+                        <a href="#" class="color-d icon-coloured"> <i class="fa fa-dribbble" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 <div class="flicker-widget-footer">
@@ -1080,19 +1119,7 @@
 
 
 
-
-
-    <script>
-        function myFunction() {
-            var x = document.getElementsByClassName("hiddent-list");
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
-    </script>
-
+    <script src="./accordion.js" type="text/javascript"> </script>
 </body>
 
 </html>

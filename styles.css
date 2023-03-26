@@ -370,6 +370,23 @@ display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin
 .remove-page-widget{display: grid; border: 2px solid #757575; border-radius: 6px; margin-bottom: 4px;}
 .page-widget-text-2{font-size: 13px; margin-top: 14px;  font-weight: 800; color: #bcbcbc;}
 .page-widget-text-3{font-size: 13px; margin-top: 14px; letter-spacing: 1px; font-weight: 800; color: #bcbcbc;}
+
+
+.accordion{border:1px solid #757575; border-radius: 6px; color: #757575;font-family: 'Open-sans',sans-serif;font-size: 15px; 
+    margin-bottom: 5px;}
+    
+    .label{   
+     padding: 0px 208px 10px 12px; }
+    
+     .accordion .accordion-container{ position: relative;}
+    .accordion .label { position: relative; cursor: pointer; }
+    .panel{ display: grid;border-radius: 6px;border: 1px solid #767676; background-color: transparent;font-family: 'Open-Sans',sans-serif; font-size: 15px; }
+    .accordion .label::before {content: '+';position: absolute;top: 9px;right: 12px;font-size: 34px;  transform: translateY(-50%);}
+    .accordion .panel{position: relative;height: 0; text-align: justify; overflow: hidden; transition: 0.5s;}
+    .accordion .accordion-container.active .label::before {content: '-'; font-size: 34px;   }
+    
+
+
 .widget-margin{margin-top: 14px;}
 .remove-widget-list{color: #797979; font-family: 'Open-Sans',sans-serif; font-size: 13px; letter-spacing: 1px; margin-left: 12px; margin-bottom: 21px;}
 .pages-widget{border: none; border-bottom: 1px solid #757575;}
