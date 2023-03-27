@@ -360,9 +360,9 @@ ul.widgets { display: flex; list-style-type: none;padding-left: 0; margin: 0; }
 .h1-bold h2{margin: 0; padding: 0; font-size: 14px; }
 .widget-footer-1{height: 540px; background-color: #212121; justify-content: center; display: inherit;}
 .footer-inner-container{ width: 1170px; display: flex;margin-top: 45px; margin-left: 2px;}
-.pages-widget-footer{ margin-right: 28px;}
+.pages-widget-footer{ margin-right: 27px;}
 .page-widget-heading{word-spacing: 2px;font-family: 'Montserrat',sans-serif;font-weight: 700;color: #ffffff;font-size: 18px;
-   margin-bottom: 25px; margin-top: 1px;}
+   margin-bottom: 25px; margin-top: 2px;}
 .page-widget-block{border:2px solid #757575; border-radius: 6px; color: #757575;font-family: 'Open-sans',sans-serif;font-size: 15px; 
 display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin-bottom: 2px;}
 .page-widget-icon{ font-size: 25px; margin-left: 129px; margin-bottom: 10px; margin-top: 9px;}
@@ -383,22 +383,26 @@ position: relative;font-weight: 700;cursor: pointer;text-align: left; transition
  .panel {border: 1px solid #6a6a6a;padding: 15px 42px 20px 10px; color: #767676;width: 80%; display: none;overflow: hidden;   
   border-bottom-left-radius: 4px;    border-bottom-right-radius: 4px;}
 .widget-margin{margin-top: 14px;}
+.accordion-port{padding: 17px 173px 12px 14px;}
 .remove-widget-list{color: #797979; font-family: 'Open-Sans',sans-serif; font-size: 13px; letter-spacing: 1px; margin-left: 12px; margin-bottom: 21px;}
 .pages-widget{border: none; border-bottom: 1px solid #757575;}
+.accordion-shop{padding: 17px 173px 12px 14px;}
 .page-widget-container{color: #757575;font-family: 'Open-sans',sans-serif;font-size: 15px; 
     display: flex; justify-content: space-between; padding: 0px 7px 0px 13px; margin-bottom: 3px; border-bottom: 1px solid #757575;}
 .twitter-widget-footer{ color: #55acee; font-size: 24px; margin-right: 12px; } 
 .twitter-widget-icon-details{ display: flex; margin-left: 8px;}
 .pasco-twitter-widget{letter-spacing: 0px;}
+.accordion-blog{padding: 17px 173px 12px 14px;}
  .twitter-margin{ margin-bottom: 23px;} 
  .twitter-widget-container-1{padding-bottom: 13px; border-bottom: 1px solid #2e2e2e;}
 .twitter-detail-footer{margin-left: 1px; font-family: 'Open-Sans', sans-serif; font-size: 13px; font-weight: 600; color: #bcbcbc; letter-spacing: 1px; line-height: 21px;}
 .twitter-container-activity{font-family: 'Open-Sans',sans-serif; margin-top: 7px; font-size: 11px; color: #bcbcbc; display: flex;}
 /* .activity-border{margin-left: 5px;} */
-.twitter-timings{ letter-spacing: 1px; font-size: 12px  ;}
+.twitter-timings{margin-top: 1px; letter-spacing: 1px; font-size: 12px  ;}
 .twitter-arrow-right{font-size: 13px;color:#bcbcbc ;margin-left: 9px; margin-right: 10px;}
 .activity-underline{ outline: #bcbcbc;     border-bottom: 1px solid #bcbcbc;}
 .icon-line-2{ margin-left: 3px;}
+
 .activity-blocks{ display: flex; gap: 15px; margin-top: 1px; margin-left: 1px;}
 .activity-status{ font-size: 11px; letter-spacing: 1px; border-bottom: 1px solid #bcb}
 .activity-status a{ color: #bcbcbc;}
@@ -407,8 +411,8 @@ a.activity-underline { color: #bcbcbc }
 .twitter-widget-container-3{padding-bottom: 13px;  margin-top: 12px;}
 .social-widget-margin{margin-bottom: 17px;margin-top: 13px;}
 .twitter-widget-socialicons{ gap: 10px; display: flex}
-.flicker-widget-footer{ display: inline; margin-right: 28px; margin-left: 20px;}
-.flicker-grid-container{display: grid;grid-template-columns: auto auto auto; grid-gap: 4px;}
+.flicker-widget-footer{ display: inline; margin-right: 25px; margin-left: 20px;}
+.flicker-grid-container{display: grid;grid-template-columns: auto auto auto; grid-gap: 5px;}
 .flicker-grid-item1{background-image: url(./images/widget-1.png);}
 .hidden-list{ display: grid}
 .flicker-grid-item2{background-image: url(./images/widget-2.png);}
@@ -421,20 +425,22 @@ a.activity-underline { color: #bcbcbc }
 .flicker-grid-item9{background-image: url(./images/widget-9.png);}
 .common-grid-item{width: 88px;background-position: center;height: 88px;background-repeat: no-repeat;  }
 .news-input{background-color: transparent; border: 1px solid #6a6a6a; font-family: 'Open-Sans', sans-serif;
-font-size: 16px; border-radius: 4px;padding: 15px 60px 9px 14px;margin-bottom: 11px;   }
+font-size: 14px; border-radius: 4px;padding: 16px 85px 13px 14px;margin-bottom: 9px;  letter-spacing: 1px;  }
 .newsletter-widget-heading{word-spacing: 2px;font-family: 'Montserrat',sans-serif;font-weight: 700;color: #ffffff;font-size: 18px;
-    margin-bottom: 26px; margin-top: 1px;}
+    margin-bottom: 27px; margin-top: 2px;}
 .newsletter-widget-footer{display: inline; margin-left: 2px; }
 .news-input-2{background-color: transparent; border: 1px solid #6a6a6a; font-family: 'Open-Sans', sans-serif;
-font-size: 16px; border-radius: 4px;padding: 15px 60px 83px 14px; margin-bottom: 12px;}
+font-size: 15px; border-radius: 4px;padding: 16px 73px 85px 14px; margin-bottom: 10px; letter-spacing: 1px;}
+.margin-email-footer{ margin-bottom: 9px;}
 .subscribe-btn-footer{ background-color: #303030; font-size: 12px; padding-right: 100px ;color: #ffffff; letter-spacing: 1px;
-    border-radius: 5px;border: none;padding: 13px 91px 12px 96px;cursor: pointer;font-family: 'Montserrat',sans-serif; font-weight: 600;}
+    border-radius: 5px;border: none;padding: 14px 91px 12px 96px;cursor: pointer;font-family: 'Montserrat',sans-serif; font-weight: 600;}
 .widget-footer-2{background-color: #303030; height: 80px; justify-content: center; display: flex;}
 .bottom-footer{ background-color: #303030; height: 80px; justify-content: center; display: flex; align-items: center;}
 .inner-bottom-container{width: 1170px; display: flex}
 .footbar-btn-list{font-family: 'Montserrat',sans-serif; font-size: 12px; color: #ffffff; font-weight: 700; margin-top: 11px;}
 .footbar-btn-list a{color: #ffffff;}
 .footbar-btn-margin{margin-right: 40px;}
+
 .footbar-searchbar{ border: 1px solid #6a6a6a;border-radius: 25px;padding: 6px 0px 6px 8px;
     background-color: transparent; margin-left: 130px;}
 .placeholder-footbar{letter-spacing: 1px;width: 166px;  background-color: transparent;border: none;outline: none;
