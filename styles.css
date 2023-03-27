@@ -354,7 +354,7 @@ ul.widgets { display: flex; list-style-type: none;padding-left: 0; margin: 0; }
 .subscription-form{display: flex;margin-bottom: 5px; margin-right: 7px; }
 .newsletter{margin-right: 42px; font-family: 'Montserrat',sans-serif;font-size: 40px;letter-spacing:2px;color: #ffffff;font-weight: 900;}
 .mail-entry{padding-right: 56px;border-radius: 50px;border: 1px solid #66696b;color: #e0e0e0; background-color: transparent;
-    padding-left: 18px;font-size: 16px;letter-spacing: 2px;margin-top: 5px; padding-top: 3px; margin-right: 31px;}
+    padding-left: 18px;font-size: 16px;letter-spacing: 2px;margin-top: 5px; padding-top: 3px; margin-right: 30px;}
 .footer-subscribe-btn{ padding: 10px 32px 10px 33px;   background-color: #303f9f; font-family: 'Montserrat',sans-serif; color: #ffffff;
      font-size: 16px; border: none;border-radius: 25px;  margin-top: 5px; letter-spacing: 1px;  } 
 .h1-bold h2{margin: 0; padding: 0; font-size: 14px; }
@@ -399,11 +399,11 @@ position: relative;font-weight: 700;cursor: pointer;text-align: left; transition
 .twitter-container-activity{font-family: 'Open-Sans',sans-serif; margin-top: 7px; font-size: 11px; color: #bcbcbc; display: flex;}
 /* .activity-border{margin-left: 5px;} */
 .twitter-timings{margin-top: 1px; letter-spacing: 1px; font-size: 12px  ;}
-.twitter-arrow-right{font-size: 13px;color:#bcbcbc ;margin-left: 9px; margin-right: 10px;}
+.twitter-arrow-right{font-size: 13px;color:#bcbcbc ;margin-left: 9px; margin-right: 10px; margin-top: 1px;}
 .activity-underline{ outline: #bcbcbc;     border-bottom: 1px solid #bcbcbc;}
 .icon-line-2{ margin-left: 3px;}
 
-.activity-blocks{ display: flex; gap: 15px; margin-top: 1px; margin-left: 1px;}
+.activity-blocks{ display: flex; gap: 15px; margin-top: 1px; }
 .activity-status{ font-size: 11px; letter-spacing: 1px; border-bottom: 1px solid #bcb}
 .activity-status a{ color: #bcbcbc;}
 a.activity-underline { color: #bcbcbc }
@@ -431,7 +431,7 @@ font-size: 14px; border-radius: 4px;padding: 16px 83px 11px 14px;margin-bottom: 
 .newsletter-widget-footer{display: inline; margin-left: 2px; }
 .news-input-2{background-color: transparent; border: 1px solid #6a6a6a; font-family: 'Open-Sans', sans-serif;
 font-size: 15px; border-radius: 4px;padding: 16px 73px 85px 14px; margin-bottom: 10px; letter-spacing: 1px;}
-.margin-email-footer{ margin-bottom: 9px;}
+.margin-email-footer{ margin-bottom: 10px;}
 .subscribe-btn-footer{ background-color: #303030; font-size: 12px; padding-right: 100px ;color: #ffffff; letter-spacing: 1px;
     border-radius: 5px;border: none;padding: 14px 91px 12px 96px;cursor: pointer;font-family: 'Montserrat',sans-serif; font-weight: 600;}
 .widget-footer-2{background-color: #303030; height: 80px; justify-content: center; display: flex;}
